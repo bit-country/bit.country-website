@@ -2,19 +2,26 @@
   font-family: "medel";
   src: url(./Images/Medel.ttf);
 }
+html, body{
+  width: 100%;
+}
 #bc-body {
   background-color: #191a2e;
   height: 100vh;
+  width: 100%;
 }
 #bc-body {
-  box-shadow: 0 3px 0px 0px turquoise;
+  /* box-shadow: 0 3px 0px 0px turquoise; */
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 #bc-body h2 {
   box-shadow: 0 3px 0 turquoise;
   display: inline-block;
   padding: 5px 0;
   margin: 15px 0;
+  font-size: 1.5em;
 }
 button.navbar-toggler {
   background-color: unset !important;
@@ -51,7 +58,7 @@ button.navbar-toggler {
   position: relative;
 }
 #bc-home-content-1-continer img {
-  width: 50%;
+  max-width: 500px;
   filter: drop-shadow(2px 2px 20px black);
 }
 #bc-home-content-1-continer {
@@ -111,10 +118,10 @@ button.navbar-toggler {
 
 .home-footer-logos {
   width: 100%;
-  padding: 80px 80px 0 80px;
+  padding: 80px 80px 80px 80px;
 }
 .web3-logo {
-  width: 210px !important;
+  width: 300px !important;
 }
 .continuum-container,
 .bc-container,
@@ -141,6 +148,11 @@ button.navbar-toggler {
   width: 100%;
   height: inherit;
   margin: 0;
+  text-align: center;
+}
+.main-gallery{
+  max-width: 1500px;  
+  margin: auto;
 }
 .row.roadmap-container {
   position: relative;
@@ -186,6 +198,7 @@ button.navbar-toggler {
   right: 0px;
   bottom: 0px;
   left: 0px;
+  z-index: -999;
 }
 .tewai-chain-container {
   background-image: url("./Images/Tewai-Chain-blur-ball.png");
@@ -324,8 +337,8 @@ button.navbar-toggler {
 }
 
 .investors-img {
-  width: 80%;
-  min-height: 20em;
+  width: 100%;
+  max-width: 1500px;  
   padding: 0px 1rem;
   object-fit: contain;
   margin: auto;
@@ -348,4 +361,11 @@ button.navbar-toggler {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: lightgray;
+}
+
+.alert{
+  background-color: transparent;  
+  color: #ffffff;
+  border-color: #78fff1;
+  text-align: center;
 }
