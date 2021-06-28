@@ -147,7 +147,7 @@ button.navbar-toggler {
 }
 .video-container-img {
   background-image: url("./Images/video-bg.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: 100%;
   opacity: 0.22;
   position: absolute;
@@ -232,15 +232,6 @@ button.navbar-toggler {
 }
 .home-tewai-chain-content .col {
   margin: 2%;
-}
-
-#bc-body .video-list {
-  padding: 100px 0 0 0;
-  /* height: fit-content; */
-}
-
-.flickity-viewport {
-  height: 750px !important;
 }
 
 .flickity-page-dots {
