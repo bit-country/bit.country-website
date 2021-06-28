@@ -187,10 +187,13 @@ button.navbar-toggler {
   right: 0px;
   bottom: 0px;
   left: 0px;
+  z-index: 0;
 }
 .roadmap-container .row.container {
   width: 80%;
   padding: 5% 0;
+  z-index: 1;
+
 }
 .home-content-2-text {
   background: linear-gradient(180deg, #393d6780 10%, #191a2e 90%);
