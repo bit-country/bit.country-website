@@ -2,19 +2,18 @@
   font-family: "medel";
   src: url(./Images/Medel.ttf);
 }
-html, body{
+html,
+body {
   width: 100%;
-}
-#bc-body {
-  background-color: #191a2e;
-  height: 100vh;
-  width: 100%;
+  overflow-x: hidden;
 }
 #bc-body {
   /* box-shadow: 0 3px 0px 0px turquoise; */
   display: inline-block;
   margin: 0;
   padding: 0;
+  background-color: #191a2e;
+  width: 100%;
 }
 #bc-body h2 {
   box-shadow: 0 3px 0 turquoise;
@@ -27,14 +26,25 @@ button.navbar-toggler {
   background-color: unset !important;
 }
 #bc-body .row.container {
-  margin-top: 2%;
+  margin: auto;
 }
 #bc-body button {
   color: black;
   background-color: #78fff1;
 }
+.bg-container {
+  position: relative;
+}
 .bc-home-video {
   width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 #bc-home-logo {
   height: 1.5em;
@@ -54,20 +64,16 @@ button.navbar-toggler {
   padding: 0 !important;
 }
 
-#bc-home-content-1 {
+#home-content {
   position: relative;
 }
-#bc-home-content-1-continer img {
-  max-width: 500px;
-  filter: drop-shadow(2px 2px 20px black);
-}
-#bc-home-content-1-continer {
-  position: absolute;
-  width: 100%;
-  top: 2%;
-  padding: 15%;
+.continuum-container {
+  padding-bottom: 15% !important;
 }
 
+#roadmap-container.container {
+  padding: 5% 0;
+}
 .home-btn {
   padding: 8px 24px;
 }
@@ -115,7 +121,9 @@ button.navbar-toggler {
   width: 80px;
   margin: 0 50px;
 }
-
+.col.home-content-2-img img {
+  height: 80%;
+}
 .home-footer-logos {
   width: 100%;
   padding: 80px 80px 80px 80px;
@@ -131,7 +139,12 @@ button.navbar-toggler {
 .tewai-chain-container {
   margin: auto;
 }
-
+.bc-container {
+  padding: 5% 0;
+}
+.bc-container-reverse {
+  flex-direction: row-reverse;
+}
 .video-container-img {
   background-image: url("./Images/video-bg.png");
   background-repeat: no-repeat;
@@ -150,9 +163,12 @@ button.navbar-toggler {
   margin: 0;
   text-align: center;
 }
-.main-gallery{
-  max-width: 1500px;  
+.main-gallery {
+  max-width: 1500px;
   margin: auto;
+}
+.home-content-2-img {
+  text-align: center !important;
 }
 .row.roadmap-container {
   position: relative;
@@ -174,7 +190,7 @@ button.navbar-toggler {
 }
 .roadmap-container .row.container {
   width: 80%;
-  margin: auto;
+  padding: 5% 0;
 }
 .home-content-2-text {
   background: linear-gradient(180deg, #393d6780 10%, #191a2e 90%);
@@ -187,6 +203,7 @@ button.navbar-toggler {
 }
 #bc-home-bg-parent {
   position: relative;
+  padding-top: 5%;
 }
 #bc-home-bg {
   background-image: url("./Images/background.png");
@@ -207,9 +224,11 @@ button.navbar-toggler {
   background-size: 100% auto;
   padding: 5%;
 }
-.tewai-chain-container .container {
+.tewai-chain-content-container {
   border-radius: 10px;
-  background: #6b6b6b29;
+  margin: 5% 0;
+  z-index: 1;
+  background: #58585873;
 }
 .home-tewai-chain-content .col {
   margin: 2%;
@@ -268,7 +287,7 @@ button.navbar-toggler {
 
 #bc-body .roadmap-line {
   border-left: 2px grey solid;
-  height: 80px;
+  height: 30vh;
   margin-left: 11px;
 }
 
@@ -338,7 +357,7 @@ button.navbar-toggler {
 
 .investors-img {
   width: 100%;
-  max-width: 1500px;  
+  max-width: 1500px;
   padding: 0px 1rem;
   object-fit: contain;
   margin: auto;
@@ -351,7 +370,6 @@ button.navbar-toggler {
 ::-webkit-scrollbar {
   width: 10px;
 }
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: grey;
@@ -363,9 +381,97 @@ button.navbar-toggler {
   background: lightgray;
 }
 
-.alert{
-  background-color: transparent;  
+.alert {
+  background-color: transparent;
   color: #ffffff;
   border-color: #78fff1;
   text-align: center;
 }
+
+#bg-video {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+}
+#bg-video-text {
+  position: absolute;
+  top: 30%;
+  left: 16%;
+  width: 75%;
+}
+/* responsive */
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #bg-video-text {
+    width: 65%;
+  }
+  #bc-body .roadmap-line {
+    height: 25vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #bg-video-text {
+    width: 50%;
+  }
+  #bc-body .roadmap-line {
+    height: 19vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #bg-video-text {
+    width: 40%;
+  }
+  #bc-body .roadmap-line {
+    height: 14vh;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  #bg-video-text {
+    width: 35%;
+  }
+  #bc-body .roadmap-line {
+    height: 12vh;
+  }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  #bg-video-text {
+    width: 30%;
+  }
+  #bc-body .roadmap-line {
+    height: 10vh;
+  }
+}
+
+.no-shadow {
+  background: none !important;
+}
+
+/* #early-access > iframe {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+} */
+
+.request-access-row {
+  height: 60vh;
+  margin: 0;
+}
+.request-access-row iframe {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+

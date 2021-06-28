@@ -13,7 +13,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link href="./style.css" rel="stylesheet" />
+    <link href="./home.css" rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
@@ -44,42 +44,41 @@
             <a
               class="nav-link active"
               aria-current="page"
-              href="https://bit.country/request-access"
+              href="#request-access"
               >Early Access</a
             >
             <a
               class="nav-link"
-              target="__blank"
+              target="_blank"
               href="https://explorer.bit.country"
-              >Chain Explore</a
+              >Chain Explorer</a
             >
             <a
               class="nav-link"
-              target="__blank"
+              target="_blank"
               href="https://github.com/bit-country"
               >GitHub</a
             >
             <a
               class="nav-link"
-              target="__blank"
+              target="_blank"
               href="http://whitepaper.bit.country"
               >White Paper</a
             >
             <a
               class="nav-link"
-              target="__blank"
+              target="_blank"
               href="https://bitcountry.medium.com"
               >Press</a
             >
             <a
               class="nav-link position-relative"
-              target="__blank"
-              href="https://bit.country/ambassador-program"
+              href="ambassador-program.html"
               >Ambassador Program
               <span class="position-absolute top-0 start-1 badge">New</span>
             </a>
             <a
-              target="__blank"
+              target="_blank"
               class="nav-link position-relative"
               href="https://bit-country.ideas.aha.io/"
               >Your Idea
@@ -93,91 +92,90 @@
     </nav>
     <div id="bc-home-content-1">
       <div data-show="true" class="alert alert-primary" role="alert">
-            <span class="alert-message">WARNING:</span>
-            <span class="alert-description">
-              There are NO official public sales for Bit.Country. Please report any cases to the team at hi@bit.country.
-            </span>             
+        <span class="alert-message">WARNING:</span>
+        <span class="alert-description">
+          There are NO official public sales for Bit.Country. Please report any
+          cases to the team at hi@bit.country.
+        </span>
       </div>
-      <video loop="true" autoplay="autoplay" muted class="bc-home-video">
-        <source
-          src="https://dev.bit.country/static/media/home_bg.26d3206a.mp4"
-        />
-      </video>
-      <div id="bc-home-content-1-continer">
-        <img src="./Images/bc-font-logo.png" />
-        
-        <h4 class="home-text-color">Start your own bit country</h4>
-        <p class="home-text-color">
-          Metaverse, NFTs & Token Economy
-        </p>
-        <button class="btn home-btn">
-          <a
-            style="text-decoration: none; color: unset"
-            href="https://bit.country/request-access"
-            >Create Your Bit Country</a
-          >
-        </button>
+      <!-- <div class="bg-container">
+        <video loop="true" autoplay="autoplay" muted class="bc-home-video">
+          <source
+            src="https://dev.bit.country/static/media/home_bg.26d3206a.mp4"
+          />
+        </video>
+      </div> -->
+      <div style="position: relative; width: 100%; overflow: hidden">
+        <div style="height: 85vh">
+          <video id="bg-video" loop="true" autoplay="autoplay" muted>
+            <source
+              src="https://dev.bit.country/static/media/home_bg.26d3206a.mp4"
+            />
+          </video>
+        </div>
+        <div id="bg-video-text">
+          <img class="img-fluid" src="./Images/bc-font-logo.png" />
 
-        <div class="home-social-media">
-          <h5 class="home-text-color-white">Follow us</h5>
-          <div class="icon-container">
-            <a target="__blank" href="https://twitter.com/bitdotcountry">
-              <i class="fa fa-twitter home-social-icon"></i>
-            </a>            
-            <a target="__blank" href="https://www.facebook.com/bitcountry/">
-              <i class="fa fa-facebook-f home-social-icon"></i>
-            </a>
-            <a target="__blank" href="https://bitcountry.medium.com">
-              <i class="fa fa-medium home-social-icon"></i>
-            </a>
+          <h4 class="home-text-color">Start your own bit country</h4>
+          <p class="home-text-color">Metaverse, NFTs & Token Economy</p>
+          <button
+            class="btn home-btn video-btn"
+            onclick="location.href='#request-access'"
+          >
+            Create Your Bit Country
+          </button>
+          <div class="home-social-media">
+            <h5 class="home-text-color-white">Follow us</h5>
+            <div class="icon-container">
+              <a target="_blank" href="https://twitter.com/bitdotcountry">
+                <i class="fa fa-twitter home-social-icon"></i>
+              </a>
+              <a target="_blank" href="https://www.facebook.com/bitcountry/">
+                <i class="fa fa-facebook-f home-social-icon"></i>
+              </a>
+              <a target="_blank" href="https://bitcountry.medium.com">
+                <i class="fa fa-medium home-social-icon"></i>
+              </a>
+            </div>
           </div>
-          <!-- <a
-            href="https://discord.gg/PaMAXZZ59N"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Discord <i class="fab fa-weixin"></i>
-          </a>
-          <a
-            href="https://t.me/BitCountryOfficialTG"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Telegram
-          </a> -->
         </div>
       </div>
     </div>
     <div id="bc-home-bg-parent">
       <div id="bc-home-bg"></div>
-      <h1 class="home-text-color-white home-header">
-        Perpetual Worlds on the Continuum
-      </h1>
-      
-      <div class="row continuum-container container">
-        <div class="col">
+      <div class="row">
+        <h1 class="home-text-color-white home-header">
+          Perpetual Worlds on the Continuum
+        </h1>
+      </div>
+
+      <div class="row bc-container container">
+        <div class="col home-content-2-img">
           <img src="./Images/continuum_trans.png" alt="bc-logo" />
         </div>
-        <div class="col">
-          <h2 class="home-text-color-white">The Continuum</h2>
-          
-          <p class="home-text-color-white">
-            Driven by the community, the topography is only realized through
-            voting. New potential slots are made available through on-chain
-            logic driven by the number of bit countries, and other platform
-            factors.
-          </p>
-          <p class="home-text-color-white">
-            An available slot on the Continuum is then auctioned to the highest
-            bidder- awarding the right to occupy the slot with their bit
-            country.
-          </p>
-          <p class="home-text-color-white">
-            Once a bit country is on the Continuum, the currency is listed on
-            the DEX and the bit country starts to receive network rewards.
-          </p>
+        <div class="col home-content-2-text no-shadow">
+          <div style="padding: 40px">
+            <h2 class="home-text-color-white">The Continuum</h2>
+
+            <p class="home-text-color-white">
+              Driven by the community, the topography is only realized through
+              voting. New potential slots are made available through on-chain
+              logic driven by the number of bRit countries, and other platform
+              factors.
+            </p>
+            <p class="home-text-color-white">
+              An available slot on the Continuum is then auctioned to the
+              highest bidder- awarding the right to occupy the slot with their
+              bit country.
+            </p>
+            <p class="home-text-color-white">
+              Once a bit country is on the Continuum, the currency is listed on
+              the DEX and the bit country starts to receive network rewards.
+            </p>
+          </div>
         </div>
       </div>
+
       <div class="row bc-container container">
         <div class="col home-content-2-img">
           <img src="./Images/country.png" alt="bc-country" />
@@ -185,7 +183,7 @@
         <div class="col home-content-2-text">
           <div style="padding: 40px">
             <h2 class="home-text-color-white">Bit Countries (BCs)</h2>
-            
+
             <p class="home-text-color-white">
               Start your own bit country and community. Attract more people to
               join using the rules and policies you can set by your will. Grow
@@ -194,12 +192,15 @@
             </p>
           </div>
         </div>
-      </div>      
-      <div class="row block-container container">
+      </div>
+      <div class="row bc-container container bc-container-reverse">
+        <div class="col home-content-2-img">
+          <img src="./Images/cube.png" alt="bc-logo" />
+        </div>
         <div class="col home-content-2-text">
           <div style="padding: 40px">
             <h2 class="home-text-color-white">Block</h2>
-            
+
             <p class="home-text-color-white">
               Content will belong to one of the blocks that make up the whole
               country. Each block has a topic the content within should adhere
@@ -208,20 +209,17 @@
             </p>
           </div>
         </div>
-        <div class="col home-content-2-img">
-          <img src="./Images/cube.png" alt="bc-logo" />
-        </div>
       </div>
       <!-- Economy -->
-      
-      <div class="row economy-container container">
+
+      <div class="row bc-container container">
         <div class="col home-content-2-img">
           <img src="./Images/finance.png" alt="finance" />
         </div>
         <div class="col home-content-2-text">
           <div style="padding: 40px">
             <h2 class="home-text-color-white">Economy</h2>
-            
+
             <p class="home-text-color-white">
               Create a currency for your bit country, and incentivize the people
               who contribute to your community. As your community grows, your
@@ -234,12 +232,15 @@
       </div>
       <!-- Economy -->
       <!-- Residents -->
-      
-      <div class="row residents-container container">
+
+      <div class="row bc-container container bc-container-reverse">
+        <div class="col home-content-2-img">
+          <img src="./Images/Resident.png" alt="./bc-logo" />
+        </div>
         <div class="col home-content-2-text">
           <div style="padding: 40px">
             <h2 class="home-text-color-white">Residents</h2>
-            
+
             <p class="home-text-color-white">
               Explore bit countries created by other people. Become a resident
               and join the community. Bit countries can set their residencial
@@ -248,17 +249,20 @@
             </p>
           </div>
         </div>
-        <div class="col home-content-2-img">
-          <img src="./Images/Resident.png" alt="./bc-logo" />
-        </div>
       </div>
       <!-- Residents -->
-
     </div>
     <!-- Tewai Chain -->
-    <div class="tewai-chain-container container">
-      <h1 class="home-text-color-white home-text-center">Our Blockchain Network</h1>
-      <div class="row container">
+    <div class="row bc-container container" style="position: relative">
+      <div
+        class="tewai-chain-container"
+        style="position: absolute; top: 0; right: 0; left: 0; bottom: 0"
+      ></div>
+      <!-- tewai-chain-container container -->
+      <h1 class="home-text-color-white home-text-center">
+        Our Blockchain Network
+      </h1>
+      <div class="row tewai-chain-content-container">
         <div class="row home-tewai-chain-content">
           <div class="col-md-4 col-sm-12">
             <h2>Governance</h2>
@@ -408,7 +412,16 @@
       </div>
     </div>
     <!-- Roadmap -->
-
+    <!-- Early access -->
+    <div class="row bc-container container" id="request-access">
+      <h1 class="home-text-color-white home-text-center">
+        Request Early Access
+      </h1>
+      <div class="request-access-row">
+        <iframe frameborder="0" src="https://eepurl.com/hsVd-r"></iframe>
+      </div>
+    </div>
+    <!-- Early access -->
     <!-- Welcome Video -->
     <div class="buy-now center hero">
       <video loop="true" autoplay="autoplay" muted class="hero-background">
@@ -417,10 +430,21 @@
       <video loop="true" autoplay="autoplay" muted class="hero-background2">
         <source src="./Images/com.mp4" />
       </video>
-      <button class="btn home-btn video-btn">Create Your Bit Country</button>
+      <button
+        class="btn home-btn video-btn"
+        onclick="location.href='#request-access'"
+      >
+        Create Your Bit Country
+      </button>
     </div>
-
     <!-- Welcome Video -->
+
+    <!-- Our team -->
+    <div class="row bc-container container">
+      <h1 class="home-text-color-white home-text-center">Our Team</h1>
+      <img style="width: 70%; margin: auto" src="./Images/team.png" />
+    </div>
+    <!-- Our team -->
     <footer id="home-footer">
       <div class="home-footer-logos">
         <img
@@ -434,7 +458,7 @@
           class="bc-home-logo web3-logo"
         />
       </div>
-      
+
       <div>
         <div>
           <h1 class="home-text-color-white">Our Backers</h1>
@@ -447,17 +471,20 @@
       </div>
       <div class="home-social-media">
         <span class="home-text-color-white"
-          >All rights reserved&nbsp;<i class="fa fa-copyright"></i>&nbsp;<script>document.write(new Date().getFullYear())</script>
+          >All rights reserved&nbsp;<i class="fa fa-copyright"></i>&nbsp;
+          <script>
+            document.write(new Date().getFullYear());
+          </script>
           bit.country</span
         >
         <div class="icon-container">
-          <a target="__blank" href="https://twitter.com/bitdotcountry">
+          <a target="_blank" href="https://twitter.com/bitdotcountry">
             <i class="fa fa-twitter home-social-icon"></i>
-          </a>          
-          <a target="__blank" href="https://www.facebook.com/bitcountry/">
+          </a>
+          <a target="_blank" href="https://www.facebook.com/bitcountry/">
             <i class="fa fa-facebook-f home-social-icon"></i>
           </a>
-          <a target="__blank" href="https://bitcountry.medium.com">
+          <a target="_blank" href="https://bitcountry.medium.com">
             <i class="fa fa-medium home-social-icon"></i>
           </a>
         </div>
