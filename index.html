@@ -160,16 +160,14 @@
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:site" content="@bitdotcountry" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      type="text/javascript"
-      async=""
-      src="https://www.google-analytics.com/analytics.js"
-    ></script>
-    <script
-      async=""
-      src="https://www.googletagmanager.com/gtag/js?id=UA-49342214-12"
-    ></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49342214-12"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-49342214-12');
+    </script>
     <link rel="icon" href="./favicon.ico" />
 
     <!-- Required meta tags -->
