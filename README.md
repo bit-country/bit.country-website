@@ -1,1 +1,3 @@
-# bit.country-website
+Code for official website
+
+https://bit.country
