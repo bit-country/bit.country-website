@@ -146,7 +146,7 @@ button.navbar-toggler {
   flex-direction: row-reverse;
 }
 .video-container-img {
-  background-image: url("./Images/video-bg.png");
+  background-image: url("./Images/video-bg-min.png");
   background-repeat: repeat-y;
   background-size: 100%;
   opacity: 0.22;
@@ -209,7 +209,7 @@ button.navbar-toggler {
   padding-top: 5%;
 }
 #bc-home-bg {
-  background-image: url("./Images/background.png");
+  background-image: url("./Images/background-min.png");
   background-repeat: no-repeat;
   background-size: 100%;
   opacity: 0.6;
@@ -221,7 +221,7 @@ button.navbar-toggler {
   z-index: -999;
 }
 .tewai-chain-container {
-  background-image: url("./Images/Tewai-Chain-blur-ball.png");
+  background-image: url("./Images/Tewai-Chain-blur-ball-min.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
