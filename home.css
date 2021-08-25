@@ -542,10 +542,10 @@ button.navbar-toggler {
 
 .typing-text {
   width: 23ch;
-  animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+  /* animation: typing 2s steps(20), blink .5s step-end infinite alternate; */
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
+  /* border-right: 3px solid; */
   font-size: 1em;
 }
 
