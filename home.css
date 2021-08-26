@@ -122,7 +122,8 @@ button.navbar-toggler {
   margin: 0 50px;
 }
 .col.home-content-2-img img {
-  height: 80%;
+  width: 95%;
+  min-width: 300px;
 }
 .home-footer-logos {
   width: 100%;
