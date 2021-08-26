@@ -122,8 +122,7 @@ button.navbar-toggler {
   margin: 0 50px;
 }
 .col.home-content-2-img img {
-  width: 95%;
-  min-width: 300px;
+  width: 95%;  
 }
 .home-footer-logos {
   width: 100%;
@@ -525,7 +524,7 @@ button.navbar-toggler {
 } */
 
 .request-access-row {
-  height: 60vh;
+  height: 70vh;
   margin: 0;
 }
 .request-access-row iframe {
