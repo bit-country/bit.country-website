@@ -780,6 +780,11 @@
           wrapAround: true,
         });
       });
+      
+    // TODO: use http header frame options  
+    if(window.top != window.self){
+        top.location.href = document.location.href;
+    }      
     </script>
   </body>
 </html>
