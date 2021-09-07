@@ -541,12 +541,13 @@ button.navbar-toggler {
 }
 
 .typing-text {
-  width: 23ch;
+  /* width: 23ch; */
   /* animation: typing 2s steps(20), blink .5s step-end infinite alternate; */
-  white-space: nowrap;
+  /* white-space: nowrap; */
   /* overflow: hidden;  */
   /* border-right: 3px solid; */
   font-size: 1em;
+  margin-bottom: 10px;
 }
 
 @keyframes typing {
