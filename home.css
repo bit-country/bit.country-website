@@ -419,7 +419,7 @@ button.navbar-toggler {
 
 @media (min-width: 576px) {
   #bg-video-text {
-    width: 65%;
+    width: 80%;
   }
   #bc-body .roadmap-line {
     height: 25vh;
@@ -436,7 +436,7 @@ button.navbar-toggler {
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   #bg-video-text {
-    width: 50%;
+    width: 70%;
   }
   #bc-body .roadmap-line {
     height: 19vh;
@@ -453,7 +453,7 @@ button.navbar-toggler {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   #bg-video-text {
-    width: 40%;
+    width: 50%;
   }
   #bc-body .roadmap-line {
     height: 14vh;
@@ -470,7 +470,7 @@ button.navbar-toggler {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   #bg-video-text {
-    width: 35%;
+    width: 40%;
   }
   #bc-body .roadmap-line {
     height: 12vh;
@@ -493,7 +493,7 @@ button.navbar-toggler {
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
   #bg-video-text {
-    width: 30%;
+    width: 40%;
   }
   #bc-body .roadmap-line {
     height: 10vh;
