@@ -2,7 +2,7 @@
 
 ## v0.0.1.2 @ 22-May-2022
 
-- 2c9f6e0 Improvements left menu metaverses showing all countries and scrollable
+- 2c9f6e0 Improvements left menu metaverses showing all metaverses and scrollable
 - 3169c3d Fix Withdraw Bit validation bug
 - 23550d7 handle close modals for deposit and withdraw, fix antd hover input error color
 - 2b15211 Menu Highlight on marketplace
