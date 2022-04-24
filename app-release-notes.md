@@ -1,12 +1,12 @@
-## Version: v0.0.1.2 @ 22-May-2022 (alpha-testnet)
+# Alpha-Testnet Release Notes
+
+## v0.0.1.2 @ 22-May-2022
 
 - 2c9f6e0 Improvements left menu metaverses showing all countries and scrollable
 - 1bf061b Merge pull request #266 from bit-country/improvements-left-menu-countries
 - 3169c3d Fix Withdraw Bit validation bug
 - 23550d7 handle close modals for deposit and withdraw, fix antd hover input error color
 - 2b15211 Menu Highlight on marketplace
-- 68df9da Merge pull request #267 from bit-country/ELEMENT_MATRIX
-- ea4f7d4 Merge pull request #268 from bit-country/development/Master
 - 9103425 Minor UI changes
 - 23130b2 Merge pull request #269 from bit-country/ELEMENT_MATRIX
 - 71b4c91 Create Metaverse Object initial
