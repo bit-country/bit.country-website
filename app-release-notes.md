@@ -3,12 +3,10 @@
 ## v0.0.1.2 @ 22-May-2022
 
 - 2c9f6e0 Improvements left menu metaverses showing all countries and scrollable
-- 1bf061b Merge pull request #266 from bit-country/improvements-left-menu-countries
 - 3169c3d Fix Withdraw Bit validation bug
 - 23550d7 handle close modals for deposit and withdraw, fix antd hover input error color
 - 2b15211 Menu Highlight on marketplace
 - 9103425 Minor UI changes
-- 23130b2 Merge pull request #269 from bit-country/ELEMENT_MATRIX
 - 71b4c91 Create Metaverse Object initial
 - 003b8f9 Update Modal UI, Fixed some richMediaTool bugs, Fixed NFT trigger position issue
 - 42411f1 handle transfer validation onBlur, change error message
