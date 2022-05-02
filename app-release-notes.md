@@ -4,7 +4,6 @@
 
 - 2057819 Enhance asset selector and builder
 - 72d0c90 Merge branch 'development/Master' into improvement/AssetSelectorAndBuilder
-- 5f3313c Merge branch 'development/Master' into improvement/AssetSelectorAndBuilder
 - 87776f6 Update ordering to add mesh to scene.
 - 25e589d Add early break to retries wrapper.
 - 356ac5b Display error notification
@@ -14,12 +13,11 @@
 - 807731e Calculate origin point using bounding box for highlighter
 - cc484d6 Avoid adding origin offset everytime we show highlighter
 - 88e9c5a Improve pending asset placement
-- b0ce311 Merge branch 'development/Master' of https://github.com/bit-country/UI into development/Master
 - db8249f Merge branch 'development/Master' into improvement/AssetSelectorAndBuilder
 - 64ce6db Revert change on scale Z
 - d4d29bd Set rotation for preview mesh.
 - b3b752d Fix collision issue
-- e772371 Merge branch 'improvement/AssetSelectorAndBuilder' of https://github.com/bit-country/UI into improvement/AssetSelectorAndBuilder
+- e772371 Merge branch 'improvement/AssetSelectorAndBuilder' of into improvement/AssetSelectorAndBuilder
 - c4171e3 Change to use bounding box unparented from mesh.
 - 00153b0 Fix inability to type a value into scale and rotation.
 - edc558c Fix error when clicking cancel after advanced placement
@@ -55,7 +53,6 @@
 - 0ee7541 update btn style
 - 0d4ab62 update showroom style
 - f6b6bc5 update avatar customizer style, typos;
-- 5d3c33f Merge branch 'development/Master' of https://github.com/bit-country/UI into development/Master
 - fb27f61 Listing component improvements
 - 6dfa7ef remove debugger
 - 4a9bdd0 added online model in bunker
