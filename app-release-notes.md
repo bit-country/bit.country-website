@@ -1,5 +1,68 @@
 # Alpha-Testnet Release Notes
 
+## v0.0.1.3
+
+- 2057819 Enhance asset selector and builder
+- 72d0c90 Merge branch 'development/Master' into improvement/AssetSelectorAndBuilder
+- 5f3313c Merge branch 'development/Master' into improvement/AssetSelectorAndBuilder
+- 87776f6 Update ordering to add mesh to scene.
+- 25e589d Add early break to retries wrapper.
+- 356ac5b Display error notification
+- 21740d3 Add different error message wording
+- 9103cb7 Merge branch 'improvement/AssetSelectorAndBuilder' into development/Master
+- bd8d63c Add new bunker.
+- 807731e Calculate origin point using bounding box for highlighter
+- cc484d6 Avoid adding origin offset everytime we show highlighter
+- 88e9c5a Improve pending asset placement
+- b0ce311 Merge branch 'development/Master' of https://github.com/bit-country/UI into development/Master
+- db8249f Merge branch 'development/Master' into improvement/AssetSelectorAndBuilder
+- 64ce6db Revert change on scale Z
+- d4d29bd Set rotation for preview mesh.
+- b3b752d Fix collision issue
+- e772371 Merge branch 'improvement/AssetSelectorAndBuilder' of https://github.com/bit-country/UI into improvement/AssetSelectorAndBuilder
+- c4171e3 Change to use bounding box unparented from mesh.
+- 00153b0 Fix inability to type a value into scale and rotation.
+- edc558c Fix error when clicking cancel after advanced placement
+- 4884043 Update selected box after cancelling edit
+- 9379df9 Fix issue with failure to load preview in model builder.
+- d87f73d Migrate changes from placement context in asset selector to model builder.
+- 7a1838a rename Spot to On-platform
+- 9fa6b25 Fix error in same cases after placing a model from advanced placement
+- 9b4cbaf Fix number as string
+- 6782675 Add conditional for handling non-model meshes in pending meshes for model builder.
+- a2fe3df reverse spot renaming
+- 974cb94 Resolve edit issues after changing original scale value
+- aa4246a Merge remote-tracking branch 'origin/development/Master' into improvement/AssetSelectorAndBuilder
+- 43ba11e Reword from spot to on-platform
+- 498bb4f Add quick change to allow other bunkers
+- 470ee6d Fix pending mesh placement as per Vuk's work on other branch.
+- 7fc4de4 Use latest bunker model.
+- 7fa7a1a Add nft/listing favorites feature
+- 3c2958c auction display improvements
+- 23a3353 Remove double-slash on tutorial image src
+- 37b5702 Merge branch 'development/Master' into uat/Master
+- d00971d Fix incorrect pending mesh preview placement
+- defed09 Ensure we exit check early for other bunkers
+- fa312db Fix incorrect pending mesh preview placement
+- 214766d Ensure we exit check early for other bunkers
+- 8caa961 Merge branch 'development/Master' into uat/Master
+- e35770d Is Admin Feature added in the UI
+- 3ebbfd0 Minor button style changed
+- 909c5d0 Merge remote-tracking branch 'origin/development/Master' into ELEMENT_MATRIX
+- 8db95b5 Merge pull request #296 from bit-country/ELEMENT_MATRIX
+- 5db2106 Publish Draft tidyup
+- 6b4446b Merge pull request #297 from bit-country/ELEMENT_MATRIX
+- 0ee7541 update btn style
+- 0d4ab62 update showroom style
+- f6b6bc5 update avatar customizer style, typos;
+- 5d3c33f Merge branch 'development/Master' of https://github.com/bit-country/UI into development/Master
+- fb27f61 Listing component improvements
+- 6dfa7ef remove debugger
+- 4a9bdd0 added online model in bunker
+- d614bc2 temp disabled sectorHide to show other avatars
+- 3e5f98d merge from dev/Master
+- 92f7e00 Merge pull request #298 from bit-country/development/Master
+
 ## v0.0.1.2 @ 22-May-2022
 
 - 2c9f6e0 Improvements left menu metaverses showing all metaverses and scrollable
