@@ -2,7 +2,7 @@
 
 ## v0.0.1.4
 - Stabilized asset gateway for depositing and withdrawing BIT.
-- Support loyalty fee for NFT Creator, earn loyalty fee for each transaction on the local marketplace.
+- Support royalty fee for NFT Creator, earn royalty fee for each transaction on the local marketplace.
 - Migrate the existing NFT collection to set the default loyalty fee.
 - Implement minting fee when minting collection and NFT. 
 - Improved My Assets page with filters to show purchased, created, listed, auction bids and favorites
