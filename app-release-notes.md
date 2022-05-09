@@ -1,5 +1,60 @@
 # Alpha-Testnet Release Notes
 
+## v0.0.1.4
+- Stabilized asset gateway for depositing and withdrawing BIT.
+- Support royalty fee for NFT Creator, earn royalty fee for each transaction on the local marketplace.
+- Migrate the existing NFT collection to set the default loyalty fee.
+- Implement minting fee when minting collection and NFT. 
+- Improved My Assets page with filters to show purchased, created, listed, auction bids and favorites
+- Users can favorite listings and non-listed assets so they can be viewed later in the my assets page
+- Only allow metaverses with the Global NFT Search Crafted NFT to be able to list NFTs and collections in the Global NFT Search page. 
+- Added a new section in the NFT listing page to see other auction/buy now listings of the same nft
+- Added batch listing and transfer feature for multiples of the same nft
+- Support new NFT types PDF, MP4, OGG
+- Users can now see a list of the Metaverse followers
+- Added activities tab under the collection page with filters
+- User can click an activity item to see details page
+- Displaying floor/ceiling price and volume traded for collections
+- Added a “Go Back” functionality to the collection page
+- Ability to add social links under Metaverse Settings page
+- Metaverse Settings page Global NFT Search option integrated
+- NFT Authorization implemented. User will need to craft object and enable the feature to view collection listing requests
+- One wallet, one account - if the user wants to switch wallets while logged in, they will need to authorize and link the new wallet -> sign process.
+- Separated functionality for Metaverse Utility and Wallet Utility
+- Released Bunker
+  - Includes new model for bunker
+  - Includes other environmental changes
+  - Updated and improved block build handling
+  - Updated and improved asset placement
+- Fixed edge case with cancellation not restoring blocks
+- Added pending preview for placed assets
+- Improved asset preview resolves some model display issues
+- Improved inputs on all tools
+  - Resolved manual input errors on some inputs – e.g. couldn’t type 1.1 but only type 1
+  - Resolved edge case where scaling broke aspect ratio for media items
+  - Resolved rotation resetting on typewriter when changing scale
+- Added close contextual button to tools to improve UX
+- Resolved error on some skybox types
+- Resolved error on some block and asset uploads
+- Improvements to much of the UI to improve snappiness and more
+- Improved advanced placement behaviour on all tools
+- Improved API
+  - Resolved edge cases when placing assets, texts and other items
+  - Improved handling of block submissions – faster handling
+- Updated lighting and configuration for graphical settings
+- Resolved edge case behaviour related to collision detection toggling
+- Improve edge case when creating some new skyboxes, blocks and models in ui
+- Improve shadows for player, clothing and world
+- Added 3D showroom to display the NFT in the marketplace.
+- Improve the UI responsive of the avatar customizer
+- Improve the Avatar skin color changing UI.
+- Allow user to change their skin color back to the original skin.
+- Allow user to reset their avatar wearable while editing the wearable.
+- Reuse existing resources if they existed in the local environment instead of fetching the new item.
+- Show warning when closing tab/window with unsaved changes
+- Updated cost calculation for assets and models
+- Allow environment customizer changes to persist in sandbox
+
 ## v0.0.1.3
 
 - 2057819 Enhance asset selector and builder
