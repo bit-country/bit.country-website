@@ -16,7 +16,6 @@
 - User can click an activity item to see details page
 - Displaying floor/ceiling price and volume traded for collections
 - Added a “Go Back” functionality to the collection page
-- Ability to add social links under Metaverse Settings page
 - Metaverse Settings page Global NFT Search option integrated
 - NFT Authorization implemented. User will need to craft object and enable the feature to view collection listing requests
 - One wallet, one account - if the user wants to switch wallets while logged in, they will need to authorize and link the new wallet -> sign process.
