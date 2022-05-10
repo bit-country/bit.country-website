@@ -18,7 +18,7 @@ Summary
 Details
 - Stabilized asset gateway for depositing and withdrawing BIT.
 - Support royalty fee for NFT Creator, earn royalty fee for each transaction on the local marketplace.
-- Migrate the existing NFT collection to set the default loyalty fee.
+- Migrate the existing NFT collection to set the default royalty fee.
 - Implement minting fee when minting collection and NFT. 
 - Improved My Assets page with filters to show purchased, created, listed, auction bids and favorites
 - Users can favorite listings and non-listed assets so they can be viewed later in the my assets page
@@ -129,7 +129,7 @@ Details
 - 3e5f98d merge from dev/Master
 - 92f7e00 Merge pull request #298 from bit-country/development/Master
 
-## v0.0.1.2 @ 22-May-2022
+## v0.0.1.2 @ 22-Apr-2022
 
 - 2c9f6e0 Improvements left menu metaverses showing all metaverses and scrollable
 - 3169c3d Fix Withdraw Bit validation bug
