@@ -1,5 +1,10 @@
 # Alpha-Testnet Release Notes
 
+How to join alpha-testnet?
+
+Please join our discord, increate your discord Rank, our community and support team will invite you.
+
+
 ## v0.0.1.4
 Summary
 - Bunker - your personal space storing your own assets.
