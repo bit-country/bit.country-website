@@ -2,7 +2,7 @@
 
 How to join alpha-testnet?
 
-Please join our [Discord](https://discord.com/invite/PaMAXZZ59N), increate your discord Rank, our community and support team will invite you.
+Please join our [Discord](https://discord.com/invite/PaMAXZZ59N), and increase your discord Rank by participating in the conversations, our community and support team constantly monior the ranks and will invite you to join alpha-testnet.
 
 
 ## v0.0.1.4
