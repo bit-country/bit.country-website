@@ -7,7 +7,7 @@ Summary
 - NFT - Royalty fees, Batch listing / transfer, favourite, trading activities, multi-types of NFT.
 - Avatar - Skin color and performance improvement
 - Sandpit - All outstanding bugs are fixed. Sky - more sky templates
-- Various mprovements. Please see details below
+- Various improvements. Please see details below
 
 Details
 - Stabilized asset gateway for depositing and withdrawing BIT.
