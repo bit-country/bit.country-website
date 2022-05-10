@@ -1,11 +1,12 @@
+## How to join alpha-testnet?
+
+By joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and taking part in conversations, or answering other people's questions if you believe you know the right answers. 
+
+By helping others and taking part in meaningful conversations, your Discord Rank will increase. Our Community and Support team constantly monitors the ranks and will send you an invite after evaluating your engagement and the overall knowledge and interest you have in Bit.Country.
+
 # Alpha-Testnet Release Notes
 
-How to join alpha-testnet?
-
-Please join our [Discord](https://discord.com/invite/PaMAXZZ59N), and increase your discord Rank by participating in the conversations, our community and support team constantly monior the ranks and will invite you to join alpha-testnet.
-
-
-## v0.0.1.4
+## v0.0.1.4 (10-May-2022)
 Summary
 - Bunker - your personal space storing your own assets.
 - Showroom - metaverse version of your local market place
