@@ -6,6 +6,55 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 # Alpha-Testnet Release Notes
 
+## v0.0.1.5 (1-June-2022)
+
+Summary
+* Metaverse Estate features - deploying land blocks, creating estates, building in the metaverse.
+* Metaverse settings.
+* Metaverse client graphics setting menu - configure the graphical quality to suit your device.
+* Bundle NFT Support.
+* Metaverse Listing Fee implementation.
+* Notification System beta-v.0.0.1.5.
+
+Details
+
+* Release Raw Land Block (deployable land block for your metaverse) on the blockchain.
+* Release Estate and Land Units on the blockchain.
+* Support Raw Land Block on the Marketplace.
+* Support Estate and Land Units on the Marketplace.
+* Support Estate and Land Unit bundle on the Marketplace
+* Create a Bundle Listing for your NFTs
+* Raw Land Blocks can now be purchased via Global NFT Search
+* View Estates and Land Units on your My Assets page
+* Sell and transfer Estates and Land Units
+* Filter NFTs by NFT Type in the local marketplace and Global NFT Search
+* Metaverse Home
+* Metaverse settings - add/update social links to Metaverse
+* Metaverse settings - add/update Listing Fee for local Marketplace
+* Metaverse settings - ability to change the metaverse display name
+* Notification System - users will now receive notifications regarding some of the existing events.
+* Collection NFT Class Fund - users can now see the available funds under my assets -> collection and withdraw.
+* Displaying network fees for transactions if applicable.
+* Local Marketplace activities to track all trading transactions.
+* Metaverse access - you can now enter your own metaverse.
+* Metaverse Estate building - requesting build permissions, placing/editing voxels, placing/editing/replacing/removing assets in the metaverse.
+* Metaverse Permisisons - detection of transfer of estate related to build permissions.
+* Graphics Settings - adjust graphical settings as appropriate for your device, enable/disable/configure post processes, shadows, rendering quality and more.
+* Updated quick start guide to include more information.
+* Metaverse Estate build area - visualize buildable area when inside build mode.
+* Updated BIT calculation system - more accurate, you can trigger the calculation on demand.
+* Updated environment customizer system - new menu for accessing and changing sun settings.
+* Add new terms and conditions to create prop, etc.
+* Updated Bunker to include vault.
+* Improved gravity system - better experience inside bunker on stairs and more.
+* Autostep feature for voxels.
+* Include details about current BIT Spot balance, so it’s easier to see your balance.
+* Include notice message about pending Polkadot js transactions.
+* Keep advanced position after placement, make it easier to place multiple assets.
+* Updated menu inside metaverse worlds - access settings and build menu, and leaving the client.
+* Bug fixes and improvements across many tools for UI and UX in metaverse worlds.
+
+
 ## v0.0.1.4 (10-May-2022)
 Summary
 - Bunker - your personal space storing your own assets.
