@@ -6,9 +6,57 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 # Alpha-Testnet Release Notes
 
+## v0.0.1.6 (21-June-2022)
+
+Release summary:
+
+- Pioneer Map feature
+  - Multi-metaverse map protocol.
+  - Allow spot issuance, auctioning and securing the spot.
+  - Pioneer Map Viewer.
+- Multiple Land Block deployment improvement.
+- Global NFT Search improvement
+- Bundle item 
+- Wallet format transformation
+- Implemented NFT Hard Limit, strict minting if Hard Limit set.
+- More wearable implementation.
+- New Bug Report Tool supports built-in screen capture and recording.
+- Bundle Royalty fee collection improvement 
+
+Details:
+
+- Moved reset filter to the Search section
+- Switching to a metaverse that you don't own no longer displays the notification "Welcome to Metaverse”
+- Deposit/Withdraw/BIT Transfer wallet format and perform verification
+- Bundle creation and selling simple validation check
+- Bundle on global marketplace opening individual item
+- Remove item from the bundle.
+- Improve Error message on blockchain transaction.
+- Performance enhancements - greatly reduced GPU usage across a variety of situations
+- Memory use enhancements and load speed - reduced memory usage related to multiplayer and improve load speed in some cases
+- Improved UI checks to prevent invalid build requests from trying to submit
+- Improved error messages related to build requests, asset placements and more
+- Improved backend handling of erroneous builds, added more checks to investigate any remaining edge cases.
+- Updated backend to prevent edge case related to multiple submissions close together - you'll need to wait up before starting another build request (could be up to a minute but often less than 15 seconds).
+- Reduced some default graphical settings to give a better experience to new users.
+- Improved graphical experience, appearance, between settings
+- Improve support for login while already in the world
+- Voxel pack API and UI to separate blocks into separate packs - packs can have at most 64 blocks (at present), and you can have up to 7 separate packs (not including the default pack, which would be 8 in total)
+- Estate hiding tool - allowing metaverse owners to hide questionable estates from users in case of violation of community terms, will be rolling out soon after deployment
+- Improved multiplayer server robustness and related messaging to user
+- Updated bounds checks and related messaging when placing assets
+- Design and implement Pioneer Map UI and UX.
+- Added focus feature on the map where you can click on the spot and you can focus on that area.
+- Improved Pioneer Map performance and scalability by using a queue system.
+- Improved Pioneer Map drawing performance by implementing a cache system.
+- Allow user to enter specified coordinate into dimension by using right click menu and drag and drop the locator into the map.
+- Updated the default size of the materverse to a maximum of 3600 land units.
+- Improved Responsive UI of Avatar Customizer.
+
+
 ## v0.0.1.5 (1-June-2022)
 
-Summary
+Release summary
 * Metaverse Estate features - deploying land blocks, creating estates, building in the metaverse.
 * Metaverse settings.
 * Metaverse client graphics setting menu - configure the graphical quality to suit your device.
@@ -56,7 +104,7 @@ Details
 
 
 ## v0.0.1.4 (10-May-2022)
-Summary
+Release summary
 - Bunker - your personal space storing your own assets.
 - Showroom - metaverse version of your local market place
 - NFT - Royalty fees, Batch listing / transfer, favourite, trading activities, multi-types of NFT.
