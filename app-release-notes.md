@@ -11,6 +11,7 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 Minor improvements:
 
 - General improvements
+
   - Home page summary
   - Loading speed improvement on Metaverse Home.
   - Loading speed improvement on Global NFT Search.
@@ -18,7 +19,9 @@ Minor improvements:
   - Remove blockchain connection on the map to improve loading speed.
   - Material Campaign improvement, claiming reward logic.
   - Add confirmation modal when authorizing, rejecting and removing collection in metaverse settings
+
 - Pioneer Map
+
   - Estate layer drawing on Pioneer map.
   - Deploy Raw Land Block or Subdivision will also update Pioneer Map.
   - Added a follow btn/ function on the pioneer map
@@ -29,6 +32,7 @@ Minor improvements:
   - Updated the UI on all maps
   - Fixed mini map coordinate issue.
   - Fixed refresh feature on maps
+
 - Metaverse
   - Clicking connect to multiplayer will be blocked if logged on
   - Chat tabs, block renamed to global
@@ -38,15 +42,17 @@ Minor improvements:
 
 - Marketplace
   - Metaverse filter was not working in collections view (Global NFT Search, Local Marketplace)
-  - Bundle not showing correctly from home page (Local Marketplace) - Similar to Sreenas issue but for the home page instead of the search page
-  - Filter metaverse throwing error in Global NFT Search (Sreena reported this one)
+  - Bundle not showing correctly from home page (Local Marketplace)
+  - Filter metaverse throwing error in Global NFT Search
+
 - My Assets
   - Metaverse object nft details page image was not showing
   - Show disabled main price input (on the right) when selling Estate or Bundle.
-  - When you list or transfer the same nft quantity > 1 , the local state of my assets did not update without refreshing the page, now the assets should be updated once the transaction compeltes
+  - Immediate update when transfer or list NFT with quantity.
+]
 - Create Metaverse
   - Display Network fee when creating metaverse
-  - Refresh metaverses side menu when creating a brand new metaverse, you should see the sqaure icon of the metaverse appear in the side menu
+  - Refresh metaverses side menu when creating a new metaverse
   
 ## v0.0.1.6 (21-June-2022)
 
