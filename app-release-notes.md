@@ -6,6 +6,48 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 # Alpha-Testnet Release Notes
 
+## v0.0.1.6.1 (28-June-2022) 
+
+Minor improvements:
+
+- General improvements
+  - Home page summary
+  - Loading speed improvement on Metaverse Home.
+  - Loading speed improvement on Global NFT Search.
+  - Improve Menu collapse when entering directly to 3D world.
+  - Remove blockchain connection on the map to improve loading speed.
+  - Material Campaign improvement, claiming reward logic.
+  - Add confirmation modal when authorizing, rejecting and removing collection in metaverse settings
+- Pioneer Map
+  - Estate layer drawing on Pioneer map.
+  - Deploy Raw Land Block or Subdivision will also update Pioneer Map.
+  - Added a follow btn/ function on the pioneer map
+  - Added, home, view map, view metaverse, view Pulse and marketplace on the quick actions section on the pioneer side menu
+  - Improved the drawing performance for the pioneer map and land block map
+  - Added feature to redraw(update) the pioneer map when a metaverse map is updated(also on the pioneer map).
+  - Added feature to stage the drew image. (the map will not show in broken if its updating, instead the map will be updated once all tile images are drew)
+  - Updated the UI on all maps
+  - Fixed mini map coordinate issue.
+  - Fixed refresh feature on maps
+- Metaverse
+  - Clicking connect to multiplayer will be blocked if logged on
+  - Chat tabs, block renamed to global
+  - Default settings set to low for new users
+  - Low, Medium and High presets for settings have lower overall quality compared to before
+  - Player avatars don’t all play same animation in multiplayer
+
+- Marketplace
+  - Metaverse filter was not working in collections view (Global NFT Search, Local Marketplace)
+  - Bundle not showing correctly from home page (Local Marketplace) - Similar to Sreenas issue but for the home page instead of the search page
+  - Filter metaverse throwing error in Global NFT Search (Sreena reported this one)
+- My Assets
+  - Metaverse object nft details page image was not showing
+  - Show disabled main price input (on the right) when selling Estate or Bundle.
+  - When you list or transfer the same nft quantity > 1 , the local state of my assets did not update without refreshing the page, now the assets should be updated once the transaction compeltes
+- Create Metaverse
+  - Display Network fee when creating metaverse
+  - Refresh metaverses side menu when creating a brand new metaverse, you should see the sqaure icon of the metaverse appear in the side menu
+  
 ## v0.0.1.6 (21-June-2022)
 
 Release summary:
