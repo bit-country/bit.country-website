@@ -6,6 +6,45 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 # Alpha-Testnet Release Notes
 
+## v0.0.1.7 (25-July-2022) 
+
+- Features
+
+  - New home page summary.
+  - Wallet and Notification setting.
+  - New Estate Customization tool.
+  - New Feedback system.
+  - New Tutorial and Guideline implementation.
+  - 3D Analysis tool.
+  - New AlphaNEER faucet claim directly on App.
+  - 3D metaverse performance improvements
+
+- Improvements & bug fixes
+
+  - Pioneer spot auction - only accept Metaverse with deployed land block. 
+  - Pioneer spot auction - only 1 leading spot per metaverse.
+  - Pioneer spot auction - issue with not enough NEER balance.
+  - Craft Metaverse Object error on some Metaverse Objects.
+  - Multiple crafting in sub second causes on bridge halt.
+  - Improve loading speed on Reward History Breakdown in Material campaign.
+  - Disable Stake / Unstaking if there is any un-redeem unstaked token.
+  - Clearer message only allowing unstaking once per round.
+  - New Nickname and Notification settings.
+  - Raw Land Block transfer issue fixed.
+  - Raw Land Block deployment issue fixed.
+  - 3D analyser when creating NFT Collection.
+  - Displaying 3D analyser result on NFT/Listing viewer.
+  - Collection description text area.
+  - New Feedback system.
+  - Make My Land as a separated tab.
+  - Pagination implementation on Reward History Breakdown in Material campaign.
+  - NFT Report on NFT viewer and listing viewer.
+  - NFT reported under local marketplace, will be shown under metaverse setting page for metaverse owner to make decision.
+  - Sudo can view all reports related to NFT report, listing report.
+  - Display metaverse name at Estate Zoom level on Pioneer Map.
+  - Display Your Rank in the BIT Reward Campaign will be available after the next round after staking the first time instead of stake to enable.
+  - Estate image upload - burn BIT. 
+
 ## v0.0.1.6.1 (28-June-2022) 
 
 Minor improvements:
