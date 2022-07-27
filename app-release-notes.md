@@ -35,7 +35,7 @@ By helping others and taking part in meaningful conversations, your Discord Rank
   - 3D analyser when creating NFT Collection.
   - Displaying 3D analyser result on NFT/Listing viewer.
   - Collection description text area.
-  - New Feedback system.
+  - Improve Bug Report feature.
   - Make My Land as a separated tab.
   - Pagination implementation on Reward History Breakdown in Material campaign.
   - NFT Report on NFT viewer and listing viewer.
