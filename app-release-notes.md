@@ -24,6 +24,7 @@ By helping others and taking part in meaningful conversations, your Discord Rank
     - Resolved styling issues, edge cases and more to improve UI and UX.
     - Performance improvement on different pages.
     - Bug fixed for the number of metaverse owners and size on metaverse home page.
+    - Removed balance transfer.
   - Marketplace
     - Improved filtering.
     - Listing shareable on social media
