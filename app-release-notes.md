@@ -6,6 +6,9 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 # Alpha-Testnet Release Notes
 
+## v0.0.1.8 (12-August-2022) 
+
+
 ## v0.0.1.7 (25-July-2022) 
 
 - Features
