@@ -8,6 +8,59 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 ## v0.0.1.8 (12-August-2022) 
 
+- Summary
+  - Featured metaverses.
+  - Advanced image analysis.
+  - Notification Settings.
+  - Emergency and maintenance mode.
+  - Rendering changes - view distance for assets, quota system and tweaks.
+
+- Details
+  - General
+    - Token faucet available on site.
+    - New and updated tutorials for platform features.
+    - Updated image classification system.
+    - Fixes and improvements across web and metaverse viewer. 
+    - Resolved styling issues, edge cases and more to improve UI and UX.
+    - Performance improvement on different pages.
+    - Bug fixed for the number of metaverse owners and size on metaverse home page.
+  - Marketplace
+    - Improved filtering.
+    - Listing shareable on social media
+    - UI Responsive implementation
+  - NFT
+    - Implement shareable feature on NFT item.
+    - Issue fixed on missing Mint button on different NFT type
+    - UI Responsive implementation
+  - Map
+    - Updated styling for owned land units/estates in other’s metaverses - makes it easier to see your land.
+    - Performance enhanced, improve the large loading metaverse such as Kaosland.
+    - Disable the menu when the user clicks outside of the metaverse boundary.
+    - Cache the geodata and use pagination on the data.
+    - Apply NSFW to estate image uploader.
+    - Display all estate blocks on the create estate page.
+    - Display create/manage menu if you owned a land unit in other metaverse.
+  - Avatar
+    - UI Improvement and bug fixed
+    - Updated customizer to auto-select the main avatar
+    - New wearables and wearable category (glasses)
+  - Metaverse 
+    - Quota system to give metaverse more control over performance and quality. Specify a maximum amount of meshes, polycount and/or file size per land unit - you may want to update your quota settings if you notice some models don’t appear anymore.
+    - Build system, better feedback on build completion and rejection.
+    - Better player loading performance in heavy metaverses.
+    - No props/nfts toggle.
+    - Multisided voxel support added, now you can create voxels with different images for top, sides and bottom.
+    - Sharing menu item in 3D world for sharing to social media.
+    - Updated inputs system, less dependent on keyboard layout.
+    - Boundaries between void and land, changed so you can walk through easily.
+  - Graphics
+    - Updated view distance voxels and assets.
+    - Fix anti-aliasing and other effects not applying in all cases.
+    - Tooling
+    - Asset selector consolidation for asset removal, text removal.
+    - BIT costs update, using new cost calculation system.
+    - Hide estate improvements, make it clearer when estates are hidden and general process
+    - Better feedback for many tools and situations.
 
 ## v0.0.1.7 (25-July-2022) 
 
