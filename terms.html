@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <meta name="theme-color" content="#FFF" />
+    <meta name="msapplication-TileColor" content="#FFF" />
+    <meta name="msapplication-TileImage" content="ms-icon-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="ms-icon-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="ms-icon-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="ms-icon-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="ms-icon-310x310.png" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="android-icon-36x36.png" sizes="36x36" />
+    <link rel="icon" type="image/png" href="android-icon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/png" href="android-icon-72x72.png" sizes="72x72" />
+    <link rel="icon" type="image/png" href="android-icon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="android-icon-144x144.png" sizes="144x144" />
+    <link rel="icon" type="image/png" href="android-icon-192x192.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link href="apple-startup-320x460.png"
+        media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)"
+        rel="apple-touch-startup-image" />
+    <link href="apple-startup-640x920.png"
+        media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <link href="apple-startup-640x1096.png"
+        media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <link href="apple-startup-748x1024.png"
+        media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1) and (orientation: landscape)"
+        rel="apple-touch-startup-image" />
+    <link href="apple-startup-750x1024.png" media="" rel="apple-touch-startup-image" />
+    <link href="apple-startup-750x1294.png"
+        media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)"
+        rel="apple-touch-startup-image" />
+    <link href="apple-startup-768x1004.png"
+        media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 1) and (orientation: portrait)"
+        rel="apple-touch-startup-image" />
+    <link href="apple-startup-1182x2208.png"
+        media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)"
+        rel="apple-touch-startup-image" />
+    <link href="apple-startup-1242x2148.png"
+        media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
+        rel="apple-touch-startup-image" />
+    <link href="apple-startup-1496x2048.png"
+        media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: landscape)"
+        rel="apple-touch-startup-image" />
+    <link href="apple-startup-1536x2008.png"
+        media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
+        rel="apple-touch-startup-image" />
+    <title>Bit Country - Start your own metaverse for your community.</title>
+    <meta property="og:title"
+        content="Bit.Country - Start your own metaverse for your community. An Ethereum-compatible Network for Metaverses & Games." />
+    <meta property="og:type" content="website" />
+    <meta property="og:author" content="Bit Country Network" />
+    <meta property="og:section" content="" />
+    <meta property="og:url" content="https://bit.country/" />
+    <meta property="og:image" content="https://bit.country/media/bc-social.png" />
+    <meta property="og:image:alt" content="Bit.Country" />
+    <meta property="og:description"
+        content="Start your own metaverse for your community. An Ethereum-compatible Network for Metaverses & Games." />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@bitdotcountry" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-49342214-12"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-49342214-12');
+    </script>
+    <link rel="icon" href="./favicon.ico" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link href="./home.css" rel="stylesheet" /> -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="./home.css?v=1.2.6" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css"
+        media="screen" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+    <script src="https://use.fontawesome.com/036f3c2e51.js"></script>
+    <style>
+        #bc-body button {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body id="bc-body">
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand mb-0 h1" href="/">
+                <img src="./Images/bc-logo.png" alt="Bit Country Logo" id="bc-home-logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#request-access">Early Access</a>
+                    <a class="nav-link" target="_blank" href="https://metaverse.network/">Metaverse.Network</a>
+                    <a class="nav-link" target="_blank" href="https://github.com/bit-country">GitHub</a>
+                    <a class="nav-link" target="_blank" href="https://metaversenw.gitbook.io/bit-country/">White
+                        Paper</a>
+                    <a class="nav-link" target="_blank" href="https://medium.com/bit-country">Press</a>
+                    <a class="nav-link" target="_blank" href="https://angel.co/company/bit-country/jobs">Career</a>
+                    <a class="nav-link position-relative" href="ambassador-program">Ambassadors
+                        <span class="position-absolute top-0 start-1 badge">Hot</span>
+                    </a>
+                    <a target="_blank" class="nav-link position-relative"
+                        href="https://support.metaverse.network/ ">Help
+                        Center</a>
+                    <a target="_blank" class="nav-link position-relative"
+                        href="https://forms.zohopublic.com/industryconnect/form/BCMNEcosystemPartner/formperma/0tovB7pdQ3lh1b808uro4OAG04ZdCRO70ld8HItv0Ek">Partnership</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div id="bc-home-content-1">
+        <div class="row bc-container container" style="color:#ffffff;">
+            <h1>BIT.COUNTRY | TERMS OF USE</h1>
+            <p>(Last Modified: [ August 2022])</p>
+            <h2>1. Introduction</h2>
+            <p>1.1 These Terms of Use (&ldquo;<strong><u>Terms</u></strong>&rdquo;) form a contract between you
+                (&ldquo;<strong><u>your</u></strong>&rdquo; or &ldquo;<strong><u>User(s)</u></strong>&rdquo;) and BC
+                Innovation Pte. Ltd. (the &ldquo;<strong><u>Company</u></strong>&rdquo;,
+                &ldquo;<strong><u>us</u></strong>&rdquo;, &ldquo;<strong><u>we</u></strong>&rdquo; or
+                &ldquo;<strong><u>our</u></strong>&rdquo;), a company incorporated in Singapore, and governs your access
+                to and use of the Bit.Country platform (&ldquo;<strong><u>Platform</u></strong>&rdquo;). The Platform
+                includes the website https://pioneer.bit.country, Marketplace, APIs, documentation, software, updates,
+                features, tools, and any materials and services made available from time to time by us.</p>
+            <p>1.2 By using, visiting, accessing or registering an account with the Platform (where applicable), you
+                agree to accept and be bound by the terms and conditions set out in these Terms and the policies
+                referenced herein and/or available by hyperlink. Please read these Terms carefully and in its entirety.
+            </p>
+            <p>1.3 You agree that by connecting your cryptocurrency wallet or by clicking &ldquo;<u>Sign Up</u>&rdquo;,
+                &ldquo;<u>Login</u>&rdquo;, &ldquo;<u>Purchase</u>&rdquo; or any similar buttons, accessing, registering
+                or using our services in any way, you are entering into a legally binding agreement with us. By doing
+                the above, you also agree that you have accepted our Privacy Policy, and other terms that may be
+                displayed to you at the time you access the Platform.</p>
+            <h2>2. Definitions and Interpretation</h2>
+            <p>2.1 In these Terms, unless the context otherwise requires, the following words and expressions shall have
+                the following meanings:</p>
+            <p>&ldquo;<u>BC Content</u>&rdquo; means the visual interfaces, graphics (including, without limitation, all
+                artwork and drawings associated with Platform), design, systems, methods, information, computer code,
+                software, "look and feel", organization, compilation of the content, code, data, and all other elements
+                of the Platform (but excluding the<strong>User Content</strong>, and<strong>Third Party
+                    Content</strong>).</p>
+            <p>&ldquo;<u>Intellectual Property Rights</u>&rdquo; includes all the worldwide rights, titles and interests
+                including but not limited to copyright and related rights, trade marks, business names and domain names,
+                rights in get-up, goodwill and the right to sue for passing off, rights in designs, rights in software,
+                database rights, rights in confidential information (including know-how), patents, rights to inventions,
+                trade secrets, and all other intellectual property and similar rights which subsist or will subsist now
+                or in the future in any part of the world.</p>
+            <p>&ldquo;<u>Marketplace</u>&rdquo; means the NFT marketplace on our Platform which allows Users to buy,
+                sell or otherwise trade NFTs with other Users.</p>
+            <p>&ldquo;<u>NFT(s)</u>&rdquo; means non-fungible cryptographic tokens that have been generated and issued
+                by us on the Platform or that are to be otherwise used in conjunction with the Platform or any
+                associated services provided by us.</p>
+            <p>&ldquo;<u>Personal Data</u>&rdquo; means any data, whether true or not, about an individual who can be
+                identified (a) from that data; or (b) from that data and other information to which we have or are
+                likely to have access, including data in our records as may be updated from time to time.</p>
+            <p>&ldquo;<u>Primary Sale</u>&rdquo; means the first sale of the relevant NFT after its creation;</p>
+            <p>&ldquo;<u>Privacy Policy</u>&rdquo; means our privacy policy located at
+                https://bit.country/privacy-policy.html;</p>
+            <p>&ldquo;<u>Secondary Sale</u>&rdquo; means each subsequent sale of the relevant NFTs after the initial
+                Primary Sale;</p>
+            <p>&ldquo;<u>Third Party Content</u>&rdquo; means materials and information, in any form or medium,
+                including any open-source or other software, documents, data, content, specifications, products,
+                equipment, or components of relating to the Platform that are not proprietary to us.</p>
+            <p>&ldquo;<u>Third Party Service Provider(s)</u>&rdquo; means any third party service provider which
+                provides services which are necessary in order for us to operate the Platform and/or provide any
+                associated services to you and any third party service provider which we engage in relation to the
+                storage and/or processing of content and Personal Data.</p>
+            <p>&ldquo;<u>User</u>&rdquo; means any person that uses the Platform and/or the associated services,
+                including NFT holders.</p>
+            <p>&ldquo;<u>User Content</u>&rdquo; means all content that the relevant User may submit to the Platform or
+                otherwise transmit via the Platform.</p>
+            <h2>3. Prices and Fees</h2>
+            <p>3.1 NFT Sales</p>
+            <p style='margin-left: 15px'>3.1.1 The Platform allows you to purchase NFTs from us or other Users in a
+                Primary Sale or Secondary Sale.</p>
+            <p style='margin-left: 15px'>3.1.2 Offers made by you on the Platform are legally binding, revocable offers
+                to purchase an NFT, capable of immediate acceptance by us or the NFT holder (as the case may be). By
+                making an offer, you agree to temporarily send and lose control over an amount of offered cryptocurrency
+                to a smart contract. The smart contract may be configured to hold the offered currency until either (a)
+                the offer is accepted by the seller; (b) a higher offer is received; or (c) the offer is revoked.</p>
+            <p style='margin-left: 15px'>3.1.3 Upon the sale of the relevant NFT, if you are an unsuccessful bidder, the
+                offered cryptocurrency will be released back to you. The Platform or the NFT holder (as the case may be)
+                has the unilateral authority to accept the bid.</p>
+            <p style='margin-left: 15px'>3.1.4 For the avoidance of doubt, bids placed during an auction cannot be
+                cancelled. Therefore, if you have won the bid, the auction transaction will be processed accordingly.
+            </p>
+            <p>3.2 NFT Platform Fees</p>
+            <p>Unless otherwise expressly specified, the Platform shall collect up to 5% of the total sale price for the
+                sale of each NFT each time (i) an NFT is sold in a Primary Sale by a User; and (ii) an NFT is
+                transferred from one NFT holder to the next holder in a Secondary Sale (&ldquo;<strong><u>Platform
+                        Fees</u></strong>&rdquo;). You agree to the automated collection and disbursement to the Company
+                of such Platform Fees.</p>
+            <p>3.3 Gas</p>
+            <p>The relevant decentralized blockchain platform may require the payment of a fee
+                (&ldquo;<strong><u>Gas</u></strong>&rdquo;) for every transaction that occurs on it. Unless otherwise
+                expressly specified, you acknowledge and agree that you will incur the Gas in relation to each and every
+                transaction associated with you via your use of the Platform. You acknowledge and agree that under no
+                circumstances will a contract, agreement, offer, sale, bid, and/or other transaction on the Platform be
+                invalidated, revocable, retractable, or otherwise unenforceable on the basis that the Gas for the given
+                transaction was unknown, too high, or otherwise unacceptable to you. You also acknowledge and agree that
+                Gas is non-refundable under all circumstances.</p>
+            <p>3.4 Taxes</p>
+            <p>You are solely responsible for determining the amount of applicable taxes for the transactions you carry
+                out on the Platform and will be solely responsible to pay any and all sales, use, value-added and other
+                taxes and/or duties claimed or imposed by any governmental authority associated with your ownership of
+                any digital assets, and your use of the Platform.</p>
+            <p>3.5 No Refunds</p>
+            <p>All transactions on the Platform are final and all fees are non-refundable except at the sole discretion
+                of the Company (for Platform Fees and other fees within its control only).</p>
+            <h2>4. Eligibility, Personal Data and Security</h2>
+            <p>4.1 Eligibility</p>
+            <p>You represent and warrant that (i) you are more than 18 years of age, (ii) you have not been restricted
+                by us in using any of the Platform, selling or purchasing any goods (including any digital assets) on
+                the Platform; and (iii) you are otherwise fully able and competent to accept, abide and comply with
+                these Terms of Use.</p>
+            <p>4.2 Personal Data</p>
+            <p>Save that we will comply with all applicable law relating to data privacy (including the Personal Data
+                Protection Act 2012 of Singapore). Nothing in these Terms shall be deemed to impute an obligation of
+                confidentiality on us with respect to your registration information. If required by law (including a
+                court order and a government or regulatory demand or requirement having the force of law), we will
+                disclose such information, including but not limited to your registration information, as so ordered.
+                For detail of our Privacy Policy, you can view it here<a href="https://bit.country/privacy-policy.html"
+                    target="_blank" rel="noopener">https://bit.country/privacy-policy.html</a></p>
+            <p>4.3 Security</p>
+            <p>For security purposes, including the investigation of whether any User is using the Platform for fraud,
+                money laundering, insider trading and/or other unlawful activity, we have the right, and sole
+                discretion, to immediately:</p>
+            <p style='margin-left: 15px'>a. restrict your access to the entire Platform or parts thereof;</p>
+            <p style='margin-left: 15px'>b. suspend the provision of any services to you;</p>
+            <p style='margin-left: 15px'>c. report your activity to the relevant law enforcement officials and provide
+                evidence in support for such officials to conduct their investigations; and/or</p>
+            <p style='margin-left: 15px'>d. take any action which we deem appropriate to the circumstances.</p>
+            <p>4.4 Accounts and passwords</p>
+            <p>Where applicable, you are solely responsible for the management of your account, wallet and password(s).
+                You are solely responsible for restricting access to your computer(s) and maintaining the
+                confidentiality and security of your account, login details, passwords, seed phrase, and all activities
+                that occur under your account. Where you have an account with us, you must notify us in writing
+                immediately if you become aware of any unauthorised use of your account or password. You agree that the
+                account will be used by you only and will not be shared with or transferred to others. You are solely
+                responsible for any activity on the Platform arising out of any failure to keep your password(s)
+                confidential and you may be held liable for any losses arising out of such a failure. We cannot and will
+                not be liable for any loss or damage arising therefrom.</p>
+            <h2>5. Anti-Money Laundering Provisions</h2>
+            <p>5.1 We reserve the right, at any time to:</p>
+            <p style='margin-left: 15px'>5.1.1 require you to provide additional information and documents at the
+                request of any competent authority or in accordance with any applicable laws and regulations in relation
+                to anti-money laundering or combating the financing of terrorism;</p>
+            <p style='margin-left: 15px'>5.1.2 share submitted information and documentation to third parties to verify
+                the authenticity of the submitted information and you agree to this by using the Platform; and</p>
+            <p style='margin-left: 15px'>5.1.3 suspend and/or terminate your account, withhold, suspend, restrict or
+                terminate our provision of services to you or your access to the Platform or any transactions carried
+                out by you (whether partially or fully completed) on the Platform, if you do not promptly provide us
+                with the requested information or upon our discovery of any actual or suspected fraudulent activity,
+                money laundering, criminal activity, and/or acts that are contrary to these Terms.</p>
+            <p>5.2 You have the sole responsibility of ensuring that you have the legal rights in accordance with
+                applicable laws to engage in any and all transactions carried out on this Platform. To make sure all
+                transactions are legally compliant, we may (but we are not obliged to) review the legality of the
+                transactions carried out by you and take necessary actions in accordance with applicable laws and
+                regulations.</p>
+            <h2>6. Our Intellectual Property Rights</h2>
+            <p>6.1 Unless otherwise specified, this Clause &lrm;6 shall apply.</p>
+            <p>6.2 BC Content is owned by us, or our licensors, and is protected by copyright, trade dress, patent, and
+                trademark laws, international conventions, other relevant Intellectual Property Rights and proprietary
+                rights, and applicable laws. You can only use our Intellectual Property Rights for the specific purpose
+                of using the Platform.</p>
+            <p>6.3 These Terms do not convey any proprietary interest in or to our Intellectual Property Rights.</p>
+            <p>6.4 Subject to your compliance with these Terms, we grant you a personal, limited, non-transferable,
+                revocable and non-exclusive license to access and use the BC Content in relation to the use of the
+                Platform, and related features and services, for non-commercial purposes for the duration of the Term.
+            </p>
+            <p>6.5 To the extent that Users mint or own any NFTs with underlying works that comprise of our BC Content,
+                we hereby grant you, for the duration that you are the rightful owner of the NFT (notwithstanding any
+                termination of these Terms with you), a limited, worldwide, non-assignable, non-sublicensable,
+                royalty-free license to use the work on the Platform for non-commercial purposes and for the following
+                purposes:</p>
+            <p style='margin-left: 15px'>6.5.1 promoting, sharing, commenting, discussing your rightful ownership of the
+                relevant NFT, or interest in the work (eg. on social media platforms, blogs, digital galleries,
+                decentralised virtual worlds, galleries, museums, virtual environments, and any other internet-based
+                media platforms); and</p>
+            <p style='margin-left: 15px'>6.5.2 (where applicable) displaying on the Platform, Marketplace, [third party
+                exchanges, platforms or marketplaces] or applications in association with an offer to sell, or trade,
+                the NFT associated with the underlying work.</p>
+            <p>6.6 Other than the purpose stated in clause &lrm;6.5 above, Users shall not use BC Content for commercial
+                purposes, including selling copies of the BC Content, selling access to the BC Content, selling
+                derivative works incorporating the BC Content, or commercially exploiting the BC Content via other means
+                (unless expressly permitted by us). Users shall not:</p>
+            <p style='margin-left: 15px'>6.6.1 modify, distort, mutilate, or perform any other modification to the BC
+                Content which would be prejudicial to our or the artist&rsquo;s/author&rsquo;s honor or reputation;</p>
+            <p style='margin-left: 15px'>6.6.2 use the BC Content to advertise, market, or sell any third party product
+                or services;</p>
+            <p style='margin-left: 15px'>6.6.3 use the BC Content in connection with images, videos, or other forms of
+                media that depict hatred, intolerance, violence, cruelty, or anything else that could reasonably be
+                found to constitute hate speech, offend good taste or decency or otherwise infringe upon the rights of
+                others;</p>
+            <p style='margin-left: 15px'>6.6.4 incorporate the BC Content in movies, videos, video games, or any other
+                forms of media for a commercial purpose, except to the limited extent that such use is expressly
+                permitted by us;</p>
+            <p style='margin-left: 15px'>6.6.5 sell or distribute for commercial gain, or otherwise commercialize
+                merchandise that includes, contains, or consists of the work which contains BC Content;</p>
+            <p style='margin-left: 15px'>6.6.6 attempt to trademark, copyright, or otherwise acquire additional
+                Intellectual Property Rights in BC Content or to the work which contains BC Content;</p>
+            <p style='margin-left: 15px'>6.6.7 attempt to mint, tokenize, or create an additional cryptographic token
+                representing the same BC Content or the work which contains BC Content, whether on or off of the
+                Platform;</p>
+            <p style='margin-left: 15px'>6.6.8 falsify, misrepresent, or conceal the authorship of the BC Content; or
+            </p>
+            <p style='margin-left: 15px'>6.6.9 otherwise utilize the BC Content for the NFT holder&rsquo;s or any third
+                party&rsquo;s commercial benefit.</p>
+            <h2>7. User Content</h2>
+            <p>7.1 You may provide, submit, upload, exchange, make available or transmit your User Content to us for the
+                purpose of it being used on the Platform, for the issuance of a corresponding NFT, or for use by any
+                Third Party Service Providers. You have and will retain sole ownership rights to all of your User
+                Content. <strong><u>However, notwithstanding the termination of these Terms, when you submit your User
+                        Content to us, you hereby grant us a perpetual, non-exclusive, worldwide, royalty-free,
+                        sub-licensable, transferable right and license to use, access, host, store, cache, reproduce,
+                        publish, display, distribute, perform, transmit, modify, adapt, and create derivative works of
+                        your User Content, without any further consent, notice and/or compensation to you or others,
+                        subject to the relevant legislations and the Privacy Policy, for the purposes of providing you
+                        with the Platform and associated services, improving our Platform, developing, advertising and
+                        carrying out research for the improvement of the Platform and associated services.</u>To the
+                    fullest extent possible, the User who is an author or creator of its User Content shall waive all
+                    moral rights in and to such User Content submitted to or otherwise transmitted via the
+                    Platform.</strong></p>
+            <p>7.2 All User Content transmitted through the services is the sole responsibility of the User from whom
+                such User Content originated. We do not verify the veracity of, nor do we validate or endorse, any User
+                Content posted or supplied by you or any third party provided to us. You warrant that:</p>
+            <p style='margin-left: 15px'>7.2.1 your User Content will not infringe upon or violate the rights of any
+                third party, including, without limitation, any Intellectual Property Rights;</p>
+            <p style='margin-left: 15px'>7.2.2 you have obtained any and all necessary consents, permissions and/or
+                waivers from any and all persons appearing in your User Content in order to include their name, voice,
+                image, likeness in your User Content prior to publishing the same on the Platform; and</p>
+            <p style='margin-left: 15px'>7.2.3 your User Content does not and will not create any liability on our part,
+                our subsidiaries, affiliates, successors and assigns and their respective employees, agents, directors,
+                officers and/or shareholders.</p>
+            <p>7.3 Where you use your User Content to mint any NFTs, notwithstanding the termination of these Terms, you
+                hereby agree to grant, or procure to be granted, to any rightful holder of the NFT a limited, worldwide,
+                non-assignable, non-sublicensable, royalty-free license to use your User Content on the Platform for
+                non-commercial purposes and for the following purposes:</p>
+            <p style='margin-left: 15px'>7.3.1 promoting, sharing, commenting, discussing their rightful ownership of
+                the relevant NFT, or interest your User Content (eg. on social media platforms, blogs, digital
+                galleries, decentralised virtual worlds, galleries, museums, virtual environments, and any other
+                internet-based media platforms); and</p>
+            <p style='margin-left: 15px'>7.3.2 (where applicable) displaying on the Platform, Marketplace, third party
+                exchanges, platforms or marketplaces or applications in association with an offer to sell, or trade, the
+                NFT associated with the underlying User Content.</p>
+            <p>7.4 If you wish to dispute any BC Content or User Content uploaded by other Users, or feel that such
+                Content is false, intentionally misleading, defamatory, offensive, or infringes upon your rights
+                (Intellectual Property Rights or otherwise) you may communicate directly with us for the purposes of
+                verifying the Content or requesting a takedown of the Content from the Platform. We can be contacted
+                atdispute@bit.country. In relation to User Content, you agree that upon our release of the user name (or
+                similar handle) of the relevant User to you the discretion of which lies solely with us, you shall waive
+                and release any and all claims, actions or otherwise which you have or may in the future have against
+                the Company, its affiliates, and their respective directors, officers, employees, agents,
+                representatives, shareholders, successors and assigns in relation to the same.</p>
+            <p>7.5 We reserve the right to, in our sole reasonable discretion, remove any BC Content, User Content
+                and/or NFT listing or display from the Platform or the Marketplace at any time, and for any reason,
+                without notice. You acknowledge and agree that the Company shall not be liable for any damages arising
+                from such removal. We are also not obligated to back up any User Content.</p>
+            <h2>8. User Conduct</h2>
+            <p>8.1 You warrant that you will comply with any and all rules, regulations and/or applicable laws and
+                regulations governing the practice of law in your jurisdiction in connection with the use of the
+                Platform.</p>
+            <p>8.2 You warrant and undertake not to:</p>
+            <p style='margin-left: 15px'>8.2.1 use the Platform other than as authorised and in accordance with these
+                Terms;</p>
+            <p style='margin-left: 15px'>8.2.2 copy our content for any other purpose that is not envisaged within these
+                Terms;</p>
+            <p style='margin-left: 15px'>8.2.3 copy, modify, translate or create derivative works of our content or the
+                Platform or any part thereof;</p>
+            <p style='margin-left: 15px'>8.2.4 send spam, unwelcomed communications, or material that is against public
+                interest, order, national harmony or offends good taste and decency, to others, or act in an unlawful,
+                defamatory, libellous, abusive, discriminatory or otherwise objectionable manner as determined by us,
+                through or in connection with the use of our Platform;</p>
+            <p style='margin-left: 15px'>8.2.5 use any device, software, routine or use the Platform in any way that
+                interferes with any application, function, or use of the Platform, that is intended to damage,
+                detrimentally interfere with, surreptitiously intercept, or expropriate any system, data, or
+                communication, including but not limited to our security mechanisms of the Platform;</p>
+            <p style='margin-left: 15px'>8.2.6 reformat, frame or mirror the Platform;</p>
+            <p style='margin-left: 15px'>8.2.7 decompile, disassemble or reverse-engineer the underlying software or
+                application that is part of the Platform or otherwise attempt to derive its source code;</p>
+            <p style='margin-left: 15px'>8.2.8 use the Platform either directly or indirectly to support any activity
+                that is illegal, fraudulent, abusive and/or amoral including but not limited to violating our
+                Intellectual Property Rights or that of others;</p>
+            <p style='margin-left: 15px'>8.2.9 use the Platform in such a way or attempt to commercially exploit any
+                part of the Platform without our permission, including without limitation, to modify any of the
+                Platform&rsquo;s content in any way, or copy, reproduce, publicly display, distribute or otherwise use
+                or communicate them for any public or commercial purpose without our permission;</p>
+            <p style='margin-left: 15px'>8.2.10 access and/or use the Platform for the purposes of monitoring its
+                availability, performance or functionality, or for any other benchmarking or competitive purposes;</p>
+            <p style='margin-left: 15px'>8.2.11 breach the &lsquo;Community Guidelines&rsquo; found in Annex A to these
+                Terms and/or any other policy governing User behavior published by us from time to time; and</p>
+            <p style='margin-left: 15px'>8.2.12 authorise any third parties to do any of the above.</p>
+            <h2>9. Disclaimers</h2>
+            <p>9.1 Unless expressly provided for in writing by the Company, the Platform, the related services and the
+                digital assets on the Platform are provided on an &lsquo;as is&rsquo; and &lsquo;as available&rsquo;
+                basis without warranties or conditions of any kind, either express or implied.</p>
+            <p>9.2 You acknowledge and accept that we are not licensed or regulated under the laws or regulations of any
+                jurisdiction (including that of the Republic of Singapore). You represent and warrant that your use of
+                the Platform does not violate any law of your relevant place of domicile and jurisdiction, and no
+                further consent or approval from any governmental authority is required in connection with such use of
+                the Platform, and even if there are additional requirements or restrictions related to such use of the
+                Platform, you agree to comply with, and shall be solely responsible for complying with, any such laws or
+                regulations. You represent and warrant that your use of the Platform does not implicate or otherwise
+                give rise to any legal or regulatory obligations on our part in respect of the laws of your relevant
+                place of domicile and jurisdiction.</p>
+            <p>9.3 You acknowledge and agree that cryptographic tokens are recorded and maintained on a decentralized
+                blockchain platform; therefore, the Company does not guarantee that it can/will transfer the ownership
+                of the relevant cryptographic token (including NFTs) to you upon purchase.</p>
+            <p>9.4 Access to the Platform</p>
+            <p style='margin-left: 15px'>9.4.1 We will endeavour to the best of our abilities, within commercially
+                reasonable means, to ensure that the Platform is available at all times.</p>
+            <p style='margin-left: 15px'>9.4.2 Notwithstanding the foregoing, we (a) do not warrant that your use of the
+                Platform will be uninterrupted or error-free or that the Platform will meet your requirements; (b) are
+                not responsible for any delays, delivery failures, or any other loss or damage resulting from the
+                transfer of data over communications networks and facilities, including the internet; (c) shall not be
+                responsible for non-performance of the Platform caused by any use that is contrary to our Terms,
+                instructions, or modification or alteration by any party other than us or our representatives, and will
+                only provide support to correct such non-performance at our sole discretion; and (d) shall not be
+                responsible for any loss or damage arising from your failure to keep your passwords secure and
+                confidential.</p>
+            <p style='margin-left: 15px'>9.4.3 You acknowledge that the Platform may be subject to limitations, delays
+                and other problems inherent in the use of such facilities.</p>
+            <h2>10. Assumption of Risk</h2>
+            <p>10.1 You acknowledge and accept that the risk of lack of market acceptance and adoption, market
+                volatility, lack of a secondary market for trading and/or restrictions on trading in a secondary market,
+                unforeseen software bugs, volatile price fluctuations of the resources used, cybersecurity issues or
+                disruptions remain, and the Company shall not be liable to you for any loss, damage or delay caused by
+                the delay or failure of the Platform, the trading of NFTs on the Marketplace, cyber hacking, fraud or
+                any form of cybercrimes committed against the Company, the Platform or you in respect of all matters.
+            </p>
+            <p>10.2 The regulatory status of cryptographic tokens, including cryptocurrencies, NFTs, digital tokens and
+                assets and blockchain technology is unclear or unsettled in many jurisdictions. In the event that any
+                relevant authority makes changes to existing laws, regulations and/or rules or financial institutions
+                make commercial decisions and such changes/decisions negatively impact the provision of any services,
+                the Platform, the digital tokens, or NFTs in various ways, the Company shall be entitled to cease the
+                provision of any services to you and operation of the Platform in any jurisdiction without incurring any
+                liability whatsoever to you.</p>
+            <p>10.3 Due to the relatively nascent nature of the blockchain technology, the relevant blockchain may also
+                be prone to periodic congestion, failure, or cyberattack, during which the delivery of cryptocurrencies,
+                digital tokens and/or NFTs being traded or issued on the Platform may be delayed indefinitely or
+                irretrievably lost or stolen due to no fault of ours. Accordingly, you acknowledge and accept that no
+                liability whatsoever is assumed by us for losses or delays to you caused by any such factors.</p>
+            <p>10.4 You acknowledge and accept the risks of dealing with smart contracts, losing money due to
+                fluctuations in the price of digital tokens and assets (including but not limited to NFTs traded on this
+                Platform).</p>
+
+
+            <h2>11. Indemnification by the User</h2>
+            <p>11.1 To the fullest extent permitted by applicable law, you agree to indemnify, defend and hold harmless
+                the Company from and against all actual or alleged third party claims, damages, awards, judgments,
+                losses, liabilities, obligations, penalties, interest, fees, expenses (including, without limitation,
+                attorneys&rsquo; fees and expenses) and costs (including, without limitation, court costs, costs of
+                settlement and costs of pursuing indemnification and insurance), of every kind and nature whatsoever,
+                whether known or unknown, foreseen or unforeseen, matured or unmatured, or suspected or unsuspected, in
+                law or equity, whether in tort, contract or otherwise (collectively, &ldquo;<u>Claims</u>&rdquo;),
+                including, but not limited to, damages to property or personal injury, that are caused by, arise out of
+                or are related to:</p>
+            <p style='margin-left: 15px'>11.1.1 your use or misuse of the Platform, your User Content on the Platform
+                and/or embedded in NFTs,</p>
+            <p style='margin-left: 15px'>11.1.2 your violation of these Terms;</p>
+            <p style='margin-left: 15px'>11.1.3 your breach of your representations and warranties herein; and</p>
+            <p>11.1.4your violation of the rights of a third party.</p>
+            <p>11.2You agree to promptly notify the Company of any third party Claims and cooperate with the Company in
+                defending such Claims. You further agree that the Company shall have control of the defense or
+                settlement of any third party Claims. This indemnity is in addition to, and not in lieu of, any other
+                indemnities set forth in a written agreement between you and the Company.</p>
+            <p>11.3Except where otherwise provided in these Terms, where you have incurred any liability to us, whether
+                arising from or under these Terms or otherwise, howsoever arising, we may without notice to you set-off
+                the amount of such liability against any liability of us to you arising from or under these Terms,
+                whether either such liability is liquidated or unliquidated, present or future, accrued or contingent.
+            </p>
+            <h2>12. Limitation of Liability</h2>
+            <p>12.1 Nothing in these Terms of Use excludes or limits our liability for death or personal injury arising
+                from our negligence, or our fraud or fraudulent misrepresentation, or any other liability that cannot be
+                excluded or limited by law.</p>
+            <p>12.2 We shall not be liable whether in contract, tort (including for negligence or breach of statutory
+                duty), misrepresentation (whether innocent or negligent), restitution or otherwise for:</p>
+            <p style='margin-left: 15px'>12.2.1 any loss of profits, sales, revenue, business, data, use, goodwill or
+                other intangible losses, or pure economic loss;</p>
+            <p style='margin-left: 15px'>12.2.2 any indirect, incidental, exemplary, punitive or consequential loss,
+                costs, damages, charges or expenses;</p>
+            <p style='margin-left: 15px'>12.2.3 any actions taken by us in good faith in accordance with the information
+                and instructions you have provided to us via the Platform or otherwise;</p>
+            <p style='margin-left: 15px'>12.2.4 any loss or damage caused by malware, distributed denial-of-service
+                attack, or other harmful material that may infect your device, programs, data or other proprietary
+                material due to your use of the Platform;</p>
+            <p style='margin-left: 15px'>12.2.5 any damages relating to your access to, use of, or inability to access
+                or use the Platform;</p>
+            <p style='margin-left: 15px'>12.2.6 any damages relating to any conduct or content of any third party or
+                another User, including without limitation, defamatory, offensive, unlawful or illegal conduct;</p>
+            <p style='margin-left: 15px'>12.2.7 any content, services or goods provided by a related party to any Third
+                Party Service Provider, including the quality of such services or goods; or</p>
+            <p style='margin-left: 15px'>12.2.8 any consequences arising in connection with any event which occurs by
+                reason of forces outside of our control. This includes any event, or a series of related events, that is
+                outside of our reasonable control, including but not limited to acts of God, acts of civil or military
+                authority, acts of customs authorities, national emergencies, industrial action, fire, abnormally
+                adverse weather conditions, earthquakes, catastrophes, wars, insurrections, riots, security threats,
+                pandemics and/or material network or other material telecommunications failures and material delay by
+                common carriers.</p>
+            <p>12.3 Our total aggregate liability whether in contract, tort (including negligence or breach of statutory
+                duty), misrepresentation (whether innocent or negligent), restitution or otherwise, including any
+                professional and legal costs, arising in connection with these Terms, the access to and use of the
+                Platform and content, or the sale or purchase of any products on this Platform, shall be limited to the
+                lesser of (a) USD 100; (b) the amount of fees received by us from the sale and/or transfer of the
+                relevant NFT(s) that is/are the subject of the claim (where applicable); or (c) the amount of fees
+                received by us in relation to the Platform or associated services rendered to you in the 12 month period
+                preceding the date the claim arose (where applicable).</p>
+            <p>12.4 For the avoidance of doubt, the foregoing sets out our total financial liability to you in respect
+                of any breach of these Terms, including but not limited to any Personal Data or data security breach.
+            </p>
+            <h2>13. Third Party Service Providers and Third Party Content</h2>
+            <p>13.1 You acknowledge that we may engage and incorporate the services of Third Party Service Providers to
+                assist in providing any services to you and/or enhancing the Platform (&ldquo;<u>Third Party
+                    Services</u>&rdquo;). You hereby consent and authorise us to delegate the authorisations you provide
+                to us to such Third Party Service Providers as we deem necessary to provide any services to you and/or
+                to operate the Platform.</p>
+            <p>13.2 The use of Third Party Services will require your agreement to certain additional terms and
+                conditions provided by the applicable Third Party Service Provider. By using the Platform, you hereby
+                agree to the applicable terms of service and privacy policies (as the case may be) of such Third Party
+                Service Providers, including any terms which may relate to any Third Party Content and the intellectual
+                property licenses for the same.</p>
+            <p>13.3 You hereby expressly waive and release any and all claims, actions or otherwise which you have or
+                may in the future have against the Company, its affiliates, and their respective directors, officers,
+                employees, agents, representatives, shareholders, successors and assigns arising from your use or
+                interaction with any Third Party Services and Third Party Content. You further acknowledge and agree
+                that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss
+                suffered by you caused or alleged to be caused by or in connection with use of or reliance on any Third
+                Party Services.</p>
+            <h2>14. Modification to the Platform</h2>
+            <p>14.1 To the maximum extent permitted by the applicable law, we reserve the right in our sole and absolute
+                discretion, to amend, modify, alter or supplement these Terms and the Platform from time to time,
+                without prior notice to you.</p>
+            <p>14.2 You should check back on the Platform often to confirm that your copy and understanding of these
+                Terms is current and correct. Your non-termination or continued use of the Platform after the effective
+                date of any amendments, changes, or updates constitutes your acceptance of these Terms, as modified by
+                such amendments, changes, or updates.</p>
+            <h2>15. Termination</h2>
+            <p>15.1 The Company may, without notice and in its sole discretion, terminate these Terms and your right to
+                access or use the Platform at any time, and for any or no reason. You acknowledge and agree that we
+                shall have no liability or obligation to you in such event and that you will not be entitled to a refund
+                of any amounts that you have already paid to us, to the fullest extent permitted by applicable law.</p>
+            <p>15.2 Termination of these Terms shall not affect the effect of Clauses &lrm;5, &lrm;6, &lrm;7, &lrm;10,
+                &lrm;11, &lrm;12, &lrm;13, &lrm;15, &lrm;16, &lrm;17, &lrm;18, &lrm;19 and &lrm;20.</p>
+            <p>15.3 No termination shall release you from any liability which at any time of such termination has
+                already accrued to the Company or which may accrue thereafter in respect of any act, omission or breach
+                prior to such termination.</p>
+            <h2>16. Governing Law and Dispute Resolution</h2>
+            <p>16.1 These Terms of Use and any dispute or claim arising out of or in connection with it or its subject
+                matter or formation (including non-contractual disputes or claims) shall be governed by and construed in
+                accordance with the law of the Republic of Singapore.</p>
+            <p>16.2 Any dispute arising out of or in connection with this Agreement, including any question regarding
+                its existence, validity or termination, shall be referred to and finally resolved by arbitration in
+                Singapore, administered by the Singapore International Arbitration Centre
+                (&ldquo;<strong><u>SIAC</u></strong>&rdquo;) in accordance with the Arbitration Rules of SIAC
+                (&ldquo;<strong><u>SIAC Rules</u></strong>&rdquo;) for the time being in force, which rules are deemed
+                to be incorporated by reference in this clause. The seat of the arbitration shall be Singapore. The
+                Tribunal shall consist of one arbitrator. The language of the arbitration shall be English.</p>
+            <h2>17. Waiver</h2>
+            <p>No failure or delay by a party to exercise any right or remedy provided under these Terms or by law shall
+                constitute a waiver of that or any other right or remedy, nor shall it preclude or restrict the further
+                exercise of that or any other right or remedy. No single or partial exercise of such right or remedy
+                shall preclude or restrict the further exercise of that or any other right or remedy.</p>
+            <h2>18. Excluded Person &amp; Excluded Jurisdiction</h2>
+            <p>For purposes of these Terms :</p>
+            <p>18.1 "Excluded Persons" refers to the following person(s) :</p>
+            <p style='margin-left: 15px'>(a) a person who is a citizen, domiciled in, resident of, or physically present
+                / located in an Excluded Jurisdiction;</p>
+            <p style='margin-left: 15px'>(b) a body corporate:</p>
+            <p style='margin-left: 30px'>(i) which is incorporated in, or operates out of, an Excluded Jurisdiction; or
+            </p>
+            <p style='margin-left: 30px'>(ii) which is under the control of one or more individuals who is/are
+                citizen(s) of, domiciled in, residents of, or physically present / located in, an Excluded Jurisdiction;
+            </p>
+            <p style='margin-left: 15px'>(c) an individual or body corporate accessing and/or using Interface and/or
+                Protocol from within an Excluded Jurisdiction;</p>
+            <p style='margin-left: 15px'>(d) an individual or body corporate included in United Nations Consolidated
+                List (accessible at https://www.un.org/securitycouncil/content/un-sc-consolidated-list); and/or</p>
+            <p style='margin-left: 15px'>(e) an individual or body corporate which is otherwise prohibited or ineligible
+                in any way, whether in full or in part, under any laws applicable to such individual or body corporate
+                from purchasing, acquiring and/or using Interface and Protocol.</p>
+            <p>18.2 "Excluded Jurisdiction" means any of the following jurisdictions : [(a) the United States of
+                America; (b) the People's Republic of China;] &copy; a jurisdiction identified by the Financial Action
+                Task Force (FATF) for strategic AML/CFT deficiencies and included in FATF's listing of "High-risk and
+                Other Monitored Jurisdictions" accessible at
+                http://www.fatf-gafi.org/publications/high-risk-and-other-monitored-jurisdictions;and/or (d) a
+                jurisdiction in which Interface and Protocol would be subject of licensing.</p>
+            <h2>19. Severability</h2>
+            <p>If any provision or part-provision of these Terms of Use is or becomes invalid, illegal or unenforceable,
+                it shall be deemed modified to the minimum extent necessary to make it valid, legal and enforceable. If
+                such modification is not possible, the relevant provision or part-provision shall be deemed deleted. Any
+                modification to or deletion of a provision or part-provision under this clause shall not affect the
+                validity and enforceability of the rest of these Terms.</p>
+            <h2>20. Entire Agreement</h2>
+            <p>Unless explicitly agreed between parties in writing, these Terms of Use constitute the entire agreement
+                between the parties and supersedes all previous discussions, correspondence, negotiations, arrangements,
+                understandings and agreements between them relating to its subject matter.</p>
+            <h2>21. Third Party Rights</h2>
+            <p>No one other than a party to these Terms, their successors and permitted assignees, shall have any right
+                to enforce any of its Terms.</p>
+            <h2>ANNEX A | COMMUNITY GUIDELINES</h2>
+            <p>To participate in any metaverse in Bit.Country, you must adhere to our community guidelines in relation
+                to your use of our Platform and your avatars. The following are not allowed:</p>
+            <p style='margin-left: 15px'>- any predatory behaviour, including attempting to befriend a Child in order to
+                manipulate and exploit them;</p>
+            <p style='margin-left: 15px'>- promoting any sexual violence or sexual activity involving coercion or
+                non-consent of any kind;</p>
+            <p style='margin-left: 15px'>- portraying a person or persons clearly engaged in explicit sexual activity;
+            </p>
+            <p style='margin-left: 15px'>- portraying a Child in sexual activity or in a sexually provocative manner or
+                in any other offensive manner;</p>
+            <p style='margin-left: 15px'>- advocating homosexuality or lesbianism, depicting or promoting incest,
+                paedophilia, bestiality and necrophilia;</p>
+            <p style='margin-left: 15px'>- portraying detailed or relished acts or extreme violence or cruelty;</p>
+            <p style='margin-left: 15px'>- glorifying, inciting or endorsing ethnic, racial or religious hatred or
+                discrimination, strife, ignorance or intolerance;</p>
+            <p style='margin-left: 15px'>- asking for personal information such as name, age, sex and location of
+                others;</p>
+            <p style='margin-left: 15px'>- posting your own or another person&rsquo;s personal information on the
+                Platform;</p>
+            <p style='margin-left: 15px'>- using clothing or avatar actions in an inappropriate way;</p>
+            <p style='margin-left: 15px'>- making serious threats of harm to public or personal safety;</p>
+            <p style='margin-left: 15px'>- using a person&rsquo;s name, image, likeness, without their express written
+                consent or otherwise impersonating another person; and</p>
+            <p style='margin-left: 15px'>- behaving (via your avatar or other means) in any manner that is
+                inappropriate, obscene, racist, sexist, defamatory, discriminatory, harassing, violent, offensive,
+                unauthorized, harmful, abusive, libellous, defamatory, threatening;</p>
+            <p style='margin-left: 15px'>- publishing, portraying, or promoting any inappropriate, obscene sexually
+                explicit, racist, sexist, defamatory, discriminatory, harassing, violent, offensive, unauthorized,
+                inaccurate, harmful, abusive, obscene, libellous, defamatory, threatening content (via the use of
+                avatars or not) or illegal or unauthorised goods or services.</p>
+            <p>&ldquo;<strong>Child</strong>&rdquo; shall mean any person or user under 16 years of age that a person
+                knew or reasonably ought to have known to be below 16 years of age, including any avatars or other
+                digital characters which appear to be a Child regardless of the actual age of the user.</p>
+
+
+        </div>
+    </div>
+
+
+
+    <footer id="home-footer">
+        <hr />
+        <div class="home-social-media">
+            <span class="home-text-color-white">All rights reserved&nbsp;<i class="fa fa-copyright"></i>&nbsp;
+                <script>
+                    document.write(new Date().getFullYear());
+                </script>
+                bit.country
+            </span>
+            <div class="icon-container">
+                <a target="_blank" href="https://twitter.com/bitdotcountry">
+                    <i class="fa fa-twitter home-social-icon"></i>
+                </a>
+                <a target="_blank" href="https://discord.com/invite/PaMAXZZ59N">
+                    <i class="fab fa-discord home-social-icon"></i>
+                </a>
+                <a target="_blank" href="https://t.me/BitCountryOfficialTG">
+                    <i class="fa fa-telegram home-social-icon"></i>
+                </a>
+                <a target="_blank" href="https://www.youtube.com/c/BitCountryMetaverseNetwork">
+                    <i class="fa fa-youtube home-social-icon"></i>
+                </a>
+                <a target="_blank" href="https://medium.com/bit-country">
+                    <i class="fa fa-medium home-social-icon"></i>
+                </a>
+                <a target="_blank" href="https://www.facebook.com/bitcountry/">
+                    <i class="fa fa-facebook-f home-social-icon"></i>
+                </a>
+            </div>
+            <div style="display: inline-block; margin: 10px;">
+                <a target="_blank"
+                    href="https://drive.google.com/drive/folders/16zEYuTdij55WwUEb_D4-WDLky-wD58MD?usp=sharing">Brand
+                    Pack</a> |
+                <a href="/privacy-policy.html">Privacy Policy</a> |
+                <a href="/terms.html">Terms of use</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".main-gallery").flickity({
+                // options
+                contain: true,
+                wrapAround: true,
+            });
+        });
+
+        // TODO: use http header frame options  
+        if (window.top != window.self) {
+            top.location.href = document.location.href;
+        }
+    </script>
+
+</body>
+
+</html>
