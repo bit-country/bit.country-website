@@ -11,15 +11,18 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 - Summary
   - Metaverse info - get more insights into a metaverse’s performance with details about how many assets, polycount and more.
 
-- Details
-  - General
-  - Pulse page UI improvements 
-  - BIT cost applied when creating and updating post and comments
+Details
+- General
+  - Pulse page UI improvements .
+  - BIT cost applied when creating and updating post and comments.
+  - Ability to upload a country logo and the logo will appear on the side bar.
   - UI improvement on different pages, improve the overall visual color contrast, redesign/ improve UX, improve main menu design, and improve the responsive design.
   - Improvement on different components such as alert messages, marketplace cards, dropable areas, and notifications.
   - Updated the overall dark theme on the app.
   - UI improvement on craft NFT page, created 2 UI(2D & 3D viewer) to show different types of craftables, created a filter for NFT Pass and Wearable.
   - Perform testing on different environments, as well as bug fixing and UI improvement.
+  - More NSFW filters are applied in different contexts of the Bit.Country platform.
+  - Added report asset and share on social media feature for NFTs and marketplace listings
 
 - Marketplace
   - Improved the filter style for the marketplace and added a mobile-friendly filter on the marketplace and improve the mobile view on different pages.
@@ -50,6 +53,7 @@ By helping others and taking part in meaningful conversations, your Discord Rank
   - Rotation discrepancies between preview, pending and final were resolved.
   - Better messages for logged-out users and better handling in general.
   - Added metaverse name to menu.
+  - Smoother voxel movement system when walking up voxels.
   - Improved notifications and in-progress activities.
   - Fix rendering issue causing meshes to be too “shiny”.
   - Improved avatar loading speed.
