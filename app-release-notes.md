@@ -6,7 +6,7 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 # Alpha-Testnet Release Notes
 
-## 0.0.1.9 (06-September-2022)
+## 0.0.1.9 (07-September-2022)
 
 - Summary
   - Metaverse info - get more insights into a metaverse’s performance with details about how many assets, polycount and more.
