@@ -6,6 +6,62 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 # Alpha-Testnet Release Notes
 
+## 0.0.1.9 (07-September-2022)
+
+- Summary
+  - Metaverse info - get more insights into a metaverse’s performance with details about how many assets, polycount and more.
+
+Details
+- General
+  - Pulse page UI improvements .
+  - BIT cost applied when creating and updating post and comments.
+  - Ability to upload a country logo and the logo will appear on the side bar.
+  - UI improvement on different pages, improve the overall visual color contrast, redesign/ improve UX, improve main menu design, and improve the responsive design.
+  - Improvement on different components such as alert messages, marketplace cards, dropable areas, and notifications.
+  - Updated the overall dark theme on the app.
+  - UI improvement on craft NFT page, created 2 UI(2D & 3D viewer) to show different types of craftables, created a filter for NFT Pass and Wearable.
+  - Perform testing on different environments, as well as bug fixing and UI improvement.
+  - More NSFW filters are applied in different contexts of the Bit.Country platform.
+  - Added report asset and share on social media feature for NFTs and marketplace listings
+
+- Marketplace
+  - Improved the filter style for the marketplace and added a mobile-friendly filter on the marketplace and improve the mobile view on different pages.
+
+- Map
+  - Update the map server to use the same color scheme as the main app, and fixed some of the alignment issues in the map server.
+  - Create a CI/CD pipeline for the map server to streamline the deployment process of the map server.
+  - Allow anonymous access to the metaverse map for users who want to share their metaverse via URL.
+
+- Avatar
+  - Create a UI to craft wearables and implemented a process to streamline Avatar wearables uploads.
+  - Added feature for user to redirect to the craft NFT page with a pre-selected wearable if the user clicked the link button from avatar customizer.
+
+- Metaverse 
+  - Metaverse info display added to give insights into metaverse performance rating - see details about polycount, meshes and more to get an idea of what might be contributing to poor performance. A useful tool for metaverse owners, builders or users curious about performance.
+  - Access restriction toggle for metaverse 3d world - available in the metaverse settings menu, you can prevent users other than yourself from entering the 3d world, can be used while you are still developing your land.
+  - New supported voxels, transparency can be added to voxels to create glass or similar materials. Transparency from the texture’s alpha channel added with new use alpha from texture toggle. Fluid option to make a voxel that is transparent and able to be walked through.
+  - Other improvements to voxel system to resolve issues in some cases.
+  - Removed the ability to scale placed assets in the asset selector. You’ll want to get the scale correct when placing the first time, this is to improve consistency with BIT costs.
+  - Updated BIT cost display and calculation on UI.
+  - New UI to display current value out of quota value when building, so you can tell how much remains of the quota for your build.
+  - Pioneer environment infrastructure, resiliency and more set up for release.
+  - Performance improvements when assets move into and out of view distance.
+  - Resolved text incorrectly displaying in some areas.
+  - Fixed text orientation issue with typewriter.
+  - Resolved bugs related to bunker load times, and the vault failing to load in some cases.
+  - Updated internals to ease adding new functionality and tooling.
+  - Rotation discrepancies between preview, pending and final were resolved.
+  - Better messages for logged-out users and better handling in general.
+  - Added metaverse name to menu.
+  - Smoother voxel movement system when walking up voxels.
+  - Improved notifications and in-progress activities.
+  - Fix rendering issue causing meshes to be too “shiny”.
+  - Improved avatar loading speed.
+  - Show loading indicator while skybox is loading.
+  - Resolve brightness not always applying depending on configuration on load.
+  - General improvements - UX, UI and bug fixes. 
+
+
 ## v0.0.1.8 (12-August-2022) 
 
 - Summary
