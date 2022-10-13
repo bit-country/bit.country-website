@@ -15,11 +15,11 @@ Details
   - Updated customizer infrastructure to support new emotes system
 - Metaverse
   - Updated loading behavior, updated loading screen, waits for better loading characteristics before fading and shows tips
-  - New UI for chat, wallet and metaverse info.
+  - New UI for chat, wallet and metaverse info
   - New network performance indicator, gives rough estimation of network performance
   - New minimap design
   - New UI for multiplayer button
-  - Redesigned animations system to support new emotes
+  - Redesigned animations system to support new emotes (emotes coming later)
   - Avatar loading system improved
   - Reduce network calls, and improve efficiency with world streaming
   - Updated asset loading system and infrastructure.
