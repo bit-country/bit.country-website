@@ -6,6 +6,29 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 # Alpha-Testnet Release Notes
 
+## 0.0.1.10 (14-October-2022)
+
+Details
+- General
+  - Notifications system improvements
+- Avatar
+  - Updated customizer infrastructure to support new emotes system
+- Metaverse
+  - Updated loading behavior, updated loading screen, waits for better loading characteristics before fading and shows tips
+  - New UI for chat, wallet and metaverse info
+  - New network performance indicator, gives rough estimation of network performance
+  - New minimap design
+  - New UI for multiplayer button
+  - Redesigned animations system to support new emotes (emotes coming later)
+  - Avatar loading system improved
+  - Reduce network calls, and improve efficiency with world streaming
+  - Updated asset loading system and infrastructure.
+  - Hyperlink tool enabled for metaverses, you can set a link on an asset for users to view. Design not finalised yet
+  - Improvements to typewriter tool's rotation system
+  - Improvements to performance and memory usage
+
+
+
 ## 0.0.1.9 (07-September-2022)
 
 - Summary
