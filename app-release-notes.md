@@ -10,6 +10,7 @@ By helping others and taking part in meaningful conversations, your Discord Rank
 
 Details
 - General
+  - Cross-chain XCM asset management
   - Notifications system improvements
 - Avatar
   - Updated customizer infrastructure to support new emotes system
