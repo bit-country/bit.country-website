@@ -1,7 +1,7 @@
 # 🚀 How to join Bit.Country Pioneer? 
 
 
-👉👉 [Visit our Pioneer App](https://pioneer.bit.country) 👈👈
+👉👉 [Visit Bit.Country Pioneer App](https://pioneer.bit.country) 👈👈
 
 
 ### Questions and Supports❓
