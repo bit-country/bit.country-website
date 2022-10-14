@@ -1,12 +1,16 @@
-## How to join alpha-testnet?
+# 🚀 How to join Bit.Country Pioneer? 
 
-By joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and taking part in conversations, or answering other people's questions if you believe you know the right answers. 
 
-By helping others and taking part in meaningful conversations, your Discord Rank will increase. Our Community and Support team constantly monitors the ranks and will send you an invite after evaluating your engagement and the overall knowledge and interest you have in Bit.Country.
+👉👉 [Visit our Pioneer App](https://pioneer.bit.country) 👈👈
 
-# Alpha-Testnet Release Notes
 
-## 0.0.1.10 (14-October-2022)
+### Questions and Supports❓
+
+Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Telegram](https://t.me/BitCountryOfficialTG)
+
+# ✅ Release Notes
+
+## Pioneer & AlphaTestnet 0.0.1.10 (14-October-2022)
 
 Details
 - General
@@ -30,7 +34,7 @@ Details
 
 
 
-## 0.0.1.9 (07-September-2022)
+## Pioneer & AlphaTestnet 0.0.1.9 (07-September-2022)
 
 - Summary
   - Metaverse info - get more insights into a metaverse’s performance with details about how many assets, polycount and more.
