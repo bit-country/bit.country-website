@@ -10,6 +10,54 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## AlphaTestnet v0.0.1.12 (13-Mar-2023)
+
+**Summary**
+* Network Governance
+* Marketplace Collection Charts
+* Estate Staking
+* Metaverse fund withdrawal
+* New royalty system on land estate and units.
+* Estate and Land image improvement  
+
+**Avatar**
+* Fixed issue with Kaosland wearable, remove bundle as whole when equipping the bundle, remove the bundle if equipping normal wearable.
+* Fixed the animation keep playing issue on the wearable system.
+* Update the API endpoint for Avatar version 2.
+* Setup API endpoint Face AI for face analysis.
+* Created morph target map, avatar mesh map system in the API.
+* Created a labelling system to label wearables .
+* Code clean up and refactor for avatar system.
+
+**Metaverse** 
+* Updated API behaviour to improve performance characteristics for client and server
+* Updated terrain system to improve performance of collisions on large terrains
+* Updated LOD system to establish better authoring process and use
+* Improved multiple infrastructure components to consolidate and improve the experience
+* Updated view distance slider to affect the maximum possible view distance, and derive asset loading distance as a function of total view distance
+* Improved initial load speed and reduced network chatter on load for metaverse and more
+* Improved asset loading speed with increased global availability
+* UI and UX improvements to build menu to find your desired items faster with search
+* Consolidated media and prop items in build menu
+* Updated reporting tool, updated environment settings menu
+
+**Network Governance**
+* Updated new network governance UI/UX
+* Improved logic flow of creating new proposals
+* Code clean up and refactor for network governance module
+* Added comment feature for proposal
+* Added media attachment feature when creating a new proposal
+
+**Marketplace**
+* Updated Marketplace collection detail UI
+* Added marketplace collection charts:
+* Total volume
+* Total sale
+* Volume and price
+* Visitors and sales
+* Floor and ceil price
+* Added top owners
+
 ## Pioneer & AlphaTestnet 0.0.1.10 (14-October-2022)
 
 Details
