@@ -44,7 +44,7 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 
 
-## AlphaTestnet v0.0.1.12 (13-Mar-2023)
+## Pioneer & AlphaTestnet v0.0.1.12 (13-Mar-2023)
 
 **Summary**
 * Network Governance
