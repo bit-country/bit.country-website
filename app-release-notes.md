@@ -10,6 +10,40 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## AlphaTestnet v0.0.1.13 (5-Apr-2023)
+
+**Hotfix & Improvements Summary**
+* Sandpit pagination issues resolved
+* Network Governance improvements and hotfixes
+* Marketplace quality of life improvements
+
+**Metaverse**
+* Pagination issues in the Sandpit build menu have been resolved for all menus
+* Resolved missing error message when creating new voxels missing required inputs
+
+
+**Network Governance**
+* Pagination on votes
+* Display votes of current referenda without connecting wallet
+* Change file upload size to < 120mb
+
+**Marketplace**
+* BIT cost showing nothing for 3D NFTs
+* Edge case where some 3D NFTs fail to load correctly
+* When adding items to a bundle, check if they are already on the marketplace
+
+**NFT Minting**
+* BIT cost showing incorrectly during minting process
+* Fix quantity when minting 
+
+**Pulse**
+* Comment length limit added
+
+**Staking/Rewards**
+* Filter current round from claimed history
+
+
+
 ## AlphaTestnet v0.0.1.12 (13-Mar-2023)
 
 **Summary**
