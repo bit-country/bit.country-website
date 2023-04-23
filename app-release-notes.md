@@ -10,7 +10,30 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
-## AlphaTestnet v0.0.1.13 (5-Apr-2023)
+## Pioneer & AlphaTestnet v0.0.1.14 (20-Apr-2023)
+
+**Release Summary**
+* Redesigned and improved environment and graphics internals
+* Overhaul of internal systems and components
+* Experience framework infrastructure (no exposed tooling yet)
+* General hotfixes and improvements
+
+**Metaverse**
+* Redesigned environment infrastructure, new terrain/ground infrastructure, allow for layered grounds such as Kaosland’s terrain and water. Improvements to sky and other environment behaviour.
+* Overhaul internal systems and components. Improved performance and memory usage. Reduced CPU for same behaviour.
+* Experience framework infrastructure to support sounds, UI, gameplay and more. Related server infrastructure to synchronize changes.
+* Better loading behaviour and updated loading screen. For complex metaverse’s such as Kaosland, improved loading behaviour to ensure all shaders had finalised compilation and were ready for render.
+* Improved world entry, infrastructure for spawn positions, and improved spawn location to reduce likelihood of spawning in a bad position.
+* Improved avatar animation system.
+* Updated sound system to support areas for ambient sounds. Tooling in progress.
+* Improvements to graphics setting application. Improved behavior for brightness and more.
+* General hotfixes related to world and UI.
+
+**General**
+* Hotfixes, styling and other general improvements across metaverse map, menu, subdivision tool, events and more.
+
+
+## Pioneer & AlphaTestnet v0.0.1.13 (5-Apr-2023)
 
 **Hotfix & Improvements Summary**
 * Sandpit pagination issues resolved
