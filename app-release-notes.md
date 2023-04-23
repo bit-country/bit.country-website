@@ -10,6 +10,21 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## Pioneer & AlphaTestnet v0.0.1.14.1 (24-Apr-2023)
+
+**Hotfix & Improvement Summary**
+* Updated memory and performance characteristics
+
+**Metaverse**
+* Latest memory improvements, updated internal systems to more aggressively perform memory management, better reference counting and systems to track low-priority data for clean up.
+* Tweaked caching values to lower TTL for voxel and mesh data within the world.
+* Reverted change related to shadow rendering on foliage, while solution is finalised with lower memory usage.
+* General improvements to internal structures for small CPU gain.
+
+**General**
+* Hotfixes, styling and other general improvements.
+
+
 ## Pioneer & AlphaTestnet v0.0.1.14 (20-Apr-2023)
 
 **Release Summary**
