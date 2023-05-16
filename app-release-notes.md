@@ -10,6 +10,52 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## Pioneer & AlphaTestnet v0.0.1.16 (16-May-2023)
+
+**Release Summary**
+* Big memory improvements related to long-running tabs and page navigation
+* Variety of small performance enhancements
+* Updated model preview in marketplace and more (ensure colliders in meshes are correctly hidden)
+* Marketplace improvements and hotfixes
+
+**Metaverse**
+* Improve memory clean up related to long-running tabs, and page navigation
+* New error notification related to some display driver crashes to improve clarity on issue
+* Upcoming feature to re-enable NFT details, view an NFT’s details inside the world
+* New teleport tool added to the menu, allows you to easily teleport from one space to another inside the world. Select from one of the 3 coordinate systems used by Bit.Country (Metaverse, Land Unit and Land Block)
+* Minimap teleportation, click anywhere in the minimap to teleport your player near the designated location
+* Performance enhancement related to water shader in some cases
+* Improve memory and performance characteristics when participating in an experience
+* Resolve issues with grounds and skyboxes not displaying correctly in some cases
+* Upcoming feature, show current online count for multiplayer (count is specific to the scope you are in. i.e. the players currently online in the same metaverse or bunker as you)
+* Updated API and UI to improve granularity of configuration and behaviour
+* Updated internal infrastructure related to Bunker loading behaviour
+* Improved support for varied loading screens
+* Resolve issue for PBR rendering in sandpit
+
+**Marketplace**
+* Updated and improved model viewer, resolves issues of visible colliders
+* Added undeployedLandBlockId for NFT LandBlock and  tokenId for other NFT type.
+* Formated digit values
+* Changed Trending NFT to Latest NFT in Global Marketplace
+* Remove the Cancel listing feature for Land Unit and Estate
+* [Collection Detail]
+  * Updated Top owner
+  * Removed search box
+  * Changed [totalMinted / hardLimit] for minted and [totalListed / totalMinted] for sale
+  * Updated the value of “For sale”
+  * Updated ceiling Price and floor price chart
+  * Updated volume and sale chart
+
+
+## Pioneer & AlphaTestnet v0.0.1.15 (10-May-2023)
+
+**Release of Marketplace 2.0**
+* Marketplace 2.0 Released
+* New charts and insights into marketplace and NFT trading
+* Completely redesigned interface
+* New UX improvements for listing NFTs and cancelling existing listings
+
 ## Pioneer & AlphaTestnet v0.0.1.14.1 (24-Apr-2023)
 
 **Hotfix & Improvement Summary**
