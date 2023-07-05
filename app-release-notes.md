@@ -10,6 +10,33 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## Pioneer & AlphaTestnet v0.0.1.17 (5-Jul-2023)
+
+**Release Summary**
+* Many improvements and hotfixes to Marketplace 2.0
+* Quality of life improvements to Metaverse
+* Estate images on Marketplace more representative
+
+**Marketplace**
+* Improvements charts displayed on the marketplace. Values displayed are more accurate
+* Improved internals for favorites system
+* New listing durations when listing a marketplace item (60 days and 90 days)
+* Improvements to Estate images on marketplace, now more accurately represents the Estate for sale
+* Fixes to display of some 3D NFTs
+* Fixed main menu not updating when changing metaverse in some cases
+
+**Metaverse**
+* Estate permissions auto-encodes wallet addresses to the correct format (now you can paste wallet addresses in any encoding and have it work as expected)
+* Metaverse private access list also auto-encodes addresses
+* Resolve hyperlinks and NFTs action getting “stuck” when looking away
+* Resolve invalid data in NFT details display
+
+**General**
+* Updated internals for Estate management
+* Improvements to Staking UX
+* Improvements to UI display on different device sizes
+
+
 ## Pioneer & AlphaTestnet v0.0.1.16 (16-May-2023)
 
 **Release Summary**
