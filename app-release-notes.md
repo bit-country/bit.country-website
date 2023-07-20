@@ -10,6 +10,401 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## Pioneer & AlphaTestnet v0.0.1.18.2 (21-Jul-2023)
+**Summary**
+* Improved spaces behaviour, better preview for shared spaces on social platforms.
+* Fixes for edge cases when loading some worlds.
+* Mobile support for 2.5D & 3D spaces, join meetings and more from your phone.
+
+**App**  
+Feature/create metaverse by @congtruong1012 in #1947  
+Improve white page on initial bunker, update create metaverse, space by @congtruong1012 in #1948  
+Update edit Pulse and Global Pulse post by @hohai1001 in #1949  
+Update edit Pulse and Global Pulse post by @tritm-cs in #1950  
+update link space 3D by @congtruong1012 in #1951  
+update thumbnail in create metaverse by @congtruong1012 in #1952  
+update thumbnail in create metaverse by @congtruong1012 in #1953  
+Update Pulse setting and allow create post by @hohai1001 in #1954  
+Update MetaverseHub.js by @congtruong1012 in #1955  
+Update MetaverseHub.js by @congtruong1012 in #1956  
+update check mobile redirect by @QuangThai in #1957  
+update check mobile redirect (#1957) by @QuangThai in #1958  
+Update quick comment Pulse and Global Pulse by @hohai1001 in #1959  
+update check mobile redirect by @QuangThai in #1961  
+update check mobile redirect by @QuangThai in #1962  
+update check mobile redirect by @QuangThai in #1963  
+remove uploaded image/video one by one by @hohai1001 in #1964  
+update UI create metaverse and space by @congtruong1012 in #1966  
+Merge develop into release by @hohai1001 in #1965  
+update add collectionId when create space by @QuangThai in #1967  
+update UI create metaverse by @QuangThai in #1969  
+update add collectionId when create space (#1967) by @QuangThai in #1968  
+update UI create space by @QuangThai in #1970  
+update create metaverse space, quick meeting by @congtruong1012 in #1971  
+update UI metaverse home page by @congtruong1012 in #1972  
+update add collectionId when create space, update create metaverse space, quick meeting by @congtruong1012 in #1973  
+update flags quick meeting by @congtruong1012 in #1974  
+update flags quick meeting (#1974) by @congtruong1012 in #1975  
+update show text owner post by @hohai1001 in #1976  
+Update text owner post for On Web by @hohai1001 in #1977  
+Improvement/ui17.07 by @codevuk in #71  
+Improvement/ui18.07 by @codevuk in #72  
+
+**Backend**  
+fix logic check owner settings pulse by @tritm-cs in #928  
+fix logic check owner settings pulse (#928) by @tritm-cs in #929  
+Feature/create metaverse by @congtruong1012 in #930  
+Feature/create metaverse (#930) by @congtruong1012 in #931  
+Update api Edit Pulse and Global Pulse Post by @hohai1001 in #932  
+Update api Edit Pulse and Global Pulse Post by @tritm-cs in #933  
+Feature/create metaverse by @tritm-cs in #934  
+Feature/create metaverse by @tritm-cs in #936  
+Fix get name for metaverse by @tritm-cs in #937  
+Update get Pulse settting and allowPost by @hohai1001 in #938  
+fix get pulse setting when empty in db by @tritm-cs in #939  
+Update set Pulse setting by @hohai1001 in #940  
+Update api edit post to remove uploaded image/video one by one by @hohai1001 in #941  
+update hubRoom's CollectionId field by @QuangThai in #943  
+Merge develop into release by @hohai1001 in #942  
+update field ChainId by @QuangThai in #944  
+update field ChainId CollectionId by @QuangThai in #945  
+update api send verify email, get list hub by @congtruong1012 in #947  
+update api send verify email, get list hub (#947) by @congtruong1012 in #948  
+limit file size when create, edit post no fee by @hohai1001 in #949  
+Change message warning when create metaverse web version over 2 by @tritm-cs in #950  
+Limit file size when create post / change message create metaverse by @tritm-cs in #951  
+update api get list template (#952) by @congtruong1012 in #953  
+
+## Pioneer & AlphaTestnet v0.0.1.18.1 (17-Jul-2023)
+**Summary**
+* Improvements and fixes for spaces, updates to web-based metaverses.
+
+**App**  
+Improvement/create wearable page by @Evanlai8 in #1896  
+remove console.log by @hohai1001 in #1924  
+Update flow login with social by @hohai1001 in #1921  
+Update flow create post, pulse setting and max name space by @hohai1001 in #1925  
+merge develop in to release by @hohai1001 in #1926  
+release by @QuangThai in #1927  
+Apply pulse for metaverse web version by @tritm-cs in #1928  
+Update latest UI for UAT by @justinphamnz in #1929  
+Development/release to UAT by @justinphamnz in #1930  
+Feature/wearable manager by @Evanlai8 in #1919  
+update spaces tab by @QuangThai in #1931  
+update spaces tab by @QuangThai in #1932  
+Update space tabs by @mrtonyhuynh in #1934  
+create metaverse and space by @congtruong1012 in #1935  
+create metaverse and space (#1935) by @congtruong1012 in #1936  
+create metaverse and space (#1935) by @justinphamnz in #1937  
+create metaverse by @congtruong1012 in #1938  
+create metaverse (#1938) by @congtruong1012 in #1939  
+New create metaverse flow by @justinphamnz in #1940  
+update text create metaverse and space by @congtruong1012 in #1941  
+update package-log by @congtruong1012 in #1942  
+update package-log (#1942) by @congtruong1012 in #1943  
+update flow delete post by @hohai1001 in #1944  
+update flow delete post by @congtruong1012 in #1945  
+Improvement/ui12.07 by @codevuk in #65  
+New anim pack loading by @danielcwm in #64  
+Improvements/12.07 2 by @codevuk in #66  
+Improvement/ui13.07 by @codevuk in #67  
+Release by @danielcwm in #69  
+update .env for map tile by @danielcwm in #70  
+
+**Backend**  
+Update api pulse setting by @hohai1001 in #913  
+Update api pulse setting (#913) by @hohai1001 in #914  
+update api get home item by @congtruong1012 in #915  
+Update api pulse setting , update api get home item by @congtruong1012 in #916  
+update logic create, delete settings pulse for metaverse web version by @tritm-cs in #917  
+update logic create, delete settings pulse for metaverse web version by @tritm-cs in #918  
+Feature/add cosmetic author by @Evanlai8 in #881  
+add api get all template space by @congtruong1012 in #919  
+add api get all template space (#919) by @congtruong1012 in #920  
+update by @congtruong1012 in #921  
+update api CreateCountryMetadataToIpfs by @congtruong1012 in #923  
+update flow delete post by @hohai1001 in #924  
+update by @congtruong1012 in #922  
+update api CreateCountryMetadataToIpfs by @congtruong1012 in #925  
+update api CreateCountryMetadataToIpfs (#925) by @congtruong1012 in #926  
+update api CreateCountryMetadataToIpfs by @congtruong1012 in #927  
+
+## Pioneer & AlphaTestnet v0.0.1.18 (11-Jul-2023)
+**Summary**
+* Spaces Release - 2.5D and 3D spaces now available for use for meetings and socializing! Create a space in no time under a metaverse, invite others to join you for video and voice calls. Share your screen.
+* Revamped 3D infrastructure - overhaul of entire 3D engine and system, dramatically improve load potential for metaverse, spaces and more. Updated visuals systems and many key improvements.
+* Marketplace and other general improvements.
+
+**App**  
+Feature/hub random name by @QuangThai in #1707  
+Metaverse hub kun by @QuangThai in #1710  
+fix bug Pulse UI by @hohai1001 in #1711  
+Feature/marketplace chart UI by @congtruong1012 in #1712  
+hotfix marketplace by @QuangThai in #1714  
+fix bug video, show noti like post failed, validate upload video, re-initial emoji flugins... by @hohai1001 in #1717  
+[B] Fixing remain issues by @thundergod3 in #1706  
+[F] Refactor for bit burn request by @thundergod3 in #1713  
+Feature/UI pagination by @thundergod3 in #1694  
+Improvement/ui09.05 by @codevuk in #1718  
+Feature/marketplace chart UI by @congtruong1012 in #1719  
+update feature/marketplace by @congtruong1012 in #1720  
+update Global Pulse UI and logic quick comment by @hohai1001 in #1722  
+create new Pulse page by @hohai1001 in #1726  
+[F] Implement hub permission by @thundergod3 in #1725  
+handle delete wallet address by @hohai1001 in #1727  
+Feature/app sdk by @tanphanvt in #1724  
+Improvement/ui18.05 by @codevuk in #1729  
+[F] Update for private hub by @thundergod3 in #1730  
+fix some bug in Global Pulse by @hohai1001 in #1732  
+Fix some bug Pulse by @hohai1001 in #1733  
+Feature/marketplace chart UI by @congtruong1012 in #1734  
+update marketplace by @congtruong1012 in #1735  
+Feature/fix UI by @tanphanvt in #1736  
+Feature/improvement marketplace by @congtruong1012 in #1738  
+Feature/improvement marketplace (#1738) by @congtruong1012 in #1740  
+Feature/improvement marketplace by @congtruong1012 in #1743  
+Improvement/ui22.05 by @codevuk in #1737  
+Adjust size limit and apply media to block menu by @tanphanvt in #1741  
+update private, public hub room by @QuangThai in #1745  
+Feature/improvement marketplace by @congtruong1012 in #1747  
+update marketplace by @congtruong1012 in #1748  
+update scroll templates modal by @QuangThai in #1749  
+calculate total cart fee using batchAll calculation by @mikejamesli in #1739  
+Update hub by @QuangThai in #1744  
+Feature/improvement marketplace by @congtruong1012 in #1752  
+update marketplace by @congtruong1012 in #1753  
+update hub room create and filter by @QuangThai in #1754  
+update thumbnail NFT landunit, estate, model by @congtruong1012 in #1755  
+fix conflic by @congtruong1012 in #1757  
+handle posts filter and create search results page by @hohai1001 in #1742  
+update marketplace, hub by @congtruong1012 in #1758  
+update check show loadmore by @QuangThai in #1761  
+update check show loadmore (#1761) by @congtruong1012 in #1762  
+change state management from useState to useReducer hooks by @hohai1001 in #1763  
+hide cancel listing in NFT Estate, LandUnit in my asset by @congtruong1012 in #1764  
+hide cancel listing in NFT Estate, LandUnit in my asset (#1764) by @congtruong1012 in #1765  
+Feature/upload wearables by @Evanlai8 in #1767
+Feature/avatar color picker by @Evanlai8 in #1708  
+Feature/beard preset by @Evanlai8 in #1750  
+update marketplace by @congtruong1012 in #1769  
+update marketplace (#1769) by @congtruong1012 in #1770  
+update collection detail by @congtruong1012 in #1771
+update collection detail (#1771) by @congtruong1012 in #1772    
+Feature/code split by @codevuk in #1773  
+update checkout carrt in marketplace by @congtruong1012 in #1774  
+update checkout carrt in marketplace (#1774) by @congtruong1012 in #1775  
+add params slug by @hohai1001 in #1768  
+Style card text and close collapse when go to Hub detail by @hohai1001 in #1777  
+update scroll body and allow atrr iframe by @hohai1001 in #1778  
+Release latest changes for Hub Dev Rolling out by @justinphamnz in #1779  
+update copy link and UI by @hohai1001 in #1780  
+update copy link and UI (#1780) by @QuangThai in #1781  
+update redirect by @hohai1001 in #1782  
+update redirect (#1782) by @QuangThai in #1783  
+update UI NFT Card by @congtruong1012 in #1784  
+update marketplace, hub room by @congtruong1012 in #1785  
+Update icon and redirect by @hohai1001 in #1790  
+Fix/create nft campaign collections by @mikejamesli in #1786  
+Fix/create nft campaign collections release by @mikejamesli in #1789  
+update redirect by @QuangThai in #1791  
+update image in marketplace detail by @congtruong1012 in #1792
+update image in marketplace detail (#1792) by @congtruong1012 in #1793    
+update remove query t by @QuangThai in #1794  
+remove query t re-render Iframe by @QuangThai in #1795  
+update slider by @congtruong1012 in #1797  
+update slider (#1797) by @congtruong1012 in #1798  
+Update style tile card hub room and define page 404 by @hohai1001 in #1796  
+Feature/app sdk by @tanphanvt in #1802  
+Handle send email verify and login with email by @hohai1001 in #1803  
+update UI in home page in metaverse by @congtruong1012 in #1804  
+update UI in home page in metaverse (#1804) by @congtruong1012 in #1805  
+Revert "Allows the page to load properly without user login" by @tanphanvt in #1806  
+fix layout of metaverse campaign by @mikejamesli in #1799  
+fix layout of metaverse campaign by @mikejamesli in #1800  
+update UI home page in metaverse by @congtruong1012 in #1808  
+Update ui email modal, Button social, generate wallet and fix bug scroll body iframe by @hohai1001 in #1809  
+Release latest changes on UI and Email Login flow by @justinphamnz in #1811  
+update image shopping cart, asset item by @congtruong1012 in #1813  
+replace hub to space by @QuangThai in #1812  
+ update image shopping cart, asset item and update hub by @congtruong1012 in #1814  
+update miss thumbUrl in NFT music by @congtruong1012 in #1815  
+Update login email by @hohai1001 in #1816  
+update marketplace by @congtruong1012 in #1820  
+Feature/create metavers social by @tritm-cs in #1821  
+Dev release on creating Metaverse with web version by @justinphamnz in #1822  
+Feature/create metavers social by @tritm-cs in #1823  
+Update metaverse creation logic by @justinphamnz in #1825  
+fix issue not get new countryUniqueId by @congtruong1012 in #1827  
+fix issue not get new countryUniqueId (#1827) by @congtruong1012 in #1828  
+Add back in old routes for bunker by @codevuk in #1830  
+Feature/avatar gender ...  
+Vite by @codevuk in #1  
+Improvement/viewer01.06 by @codevuk in #2  
+Enable placing and removing assets in player home by @codevuk in #3  
+Improvement/ui07.06 by @codevuk in #4  
+Enable voxel building for spaces by @codevuk in #5  
+Imrpovement/ui12.09 by @codevuk in #6  
+Improvement/mobile13.06 by @codevuk in #7  
+Improvement/ui14.06 by @codevuk in #8  
+Merge by @codevuk in #9  
+Merge by @codevuk in #10  
+Improve sensitivity of joystick by @codevuk in #11  
+Fix weak ref issue on build manager by @codevuk in #12  
+Improvement/ui19.06 by @codevuk in #13  
+Merge into Release by @codevuk in #14  
+Allow apple fullscreen mode by @codevuk in #15  
+Add safe padding areas for ios by @codevuk in #16  
+Try issue to fix safari navigation bar by @codevuk in #17  
+Add pacakge to solve ios naviagtion bar issue by @codevuk in #18  
+Try fix safari navigation by @codevuk in #19  
+Update CSS for mobile devices by @codevuk in #20  
+Try to fix issue for landscape mode by @codevuk in #21  
+Try to fix landscape mode by @codevuk in #22  
+Try window scroll to method to get rid of navigation bar by @codevuk in #23  
+Add text to joystick by @codevuk in #24  
+Add view and jump buttons to joystick by @codevuk in #25  
+Improvement/ui20.06 by @codevuk in #26  
+Improvement/md20.06 by @codevuk in #27  
+Merge into Release by @codevuk in #28  
+Improvement/ui21.06 by @codevuk in #29  
+Improvement/ui22.06 by @codevuk in #30  
+Improvment/ui23.06 by @codevuk in #31  
+Refactor directories by @codevuk in #32  
+Improvement/ui26.06 by @codevuk in #33  
+Merge into Release by @codevuk in #34  
+Handle unloading video stream by @codevuk in #35  
+Add basic audio support by @codevuk in #36  
+Improvement/ui29.06 by @codevuk in #37  
+Merge into release by @codevuk in #38  
+Improvement/ui30.06 by @codevuk in #39  
+Merge into Release by @codevuk in #40  
+Improvement/ui30.06.2 by @codevuk in #41  
+Improvement/ui03.07 by @codevuk in #42  
+Avatar cusomizer integration by @danielcwm in #43  
+Feature/online hud by @codevuk in #44  
+Merge into release by @codevuk in #45  
+Merge into release by @codevuk in #46  
+Improvement/ui05.07 by @codevuk in #47  
+Merge into release by @codevuk in #48  
+Add debugging for dev deployment by @codevuk in #49  
+Add updated styling for more than 5 video streams by @codevuk in #50  
+Improvement/ui06.07 by @codevuk in #51  
+Merge into release by @codevuk in #52  
+Default to fixed rendering by @codevuk in #53  
+Improvement/ui07.07 by @codevuk in #54  
+Feature/user nickname by @codevuk in #55  
+updated avatar model/ loader to latest by @danielcwm in #56  
+merge latest avatar update by @danielcwm in #58  
+update the name of the eyes material by @danielcwm in #59  
+Improvement/ui10.07 by @codevuk in #60  
+Add more logging and try to fix screen share on start up issue by @codevuk in #61  
+Improvement/ui11.07 by @codevuk in #62  
+
+**Backend**  
+Feature/marketplace charts by @congtruong1012 in #765  
+Feature/marketplace charts (#765) by @QuangThai in #766    
+[B] Fixing remain issues by @thundergod3 in #763  
+App sdk by @tanphanvt in #768  
+Feature/asset templates by @codevuk in #769  
+Feature/marketplace charts by @congtruong1012 in #770  
+update feature/marketplace by @congtruong1012 in #771  
+Feature/marketplace charts by @congtruong1012 in #772  
+Feature/marketplace charts by @congtruong1012 in #774  
+Feature/marketplace charts by @congtruong1012 in #776  
+update marketplace by @congtruong1012 in #778  
+update marketplace by @congtruong1012 in #779  
+Feature/marketplace charts by @congtruong1012 in #783  
+[F] Implement hub permission by @thundergod3 in #782  
+update marketplace by @congtruong1012 in #785  
+update api pulse by @hohai1001 in #784  
+Add ImageURL to achievement by @tanphanvt in #781  
+Improvement/api19.05 by @codevuk in #787  
+Feature/marketplace charts by @congtruong1012 in #788  
+Feature/marketplace charts (#788) by @congtruong1012 in #789  
+Feature/improvement marketplace by @congtruong1012 in #791  
+update marketplace by @congtruong1012 in #792  
+Improvement/api22.05 by @codevuk in #790  
+update hub by @QuangThai in #795  
+update hub (#795) by @congtruong1012 in #797  
+update add field OwnerId, UserWalletAddress by @QuangThai in #798  
+update api create, edit post and comment no fee by @hohai1001 in #796  
+Feature/improvement marketplace by @congtruong1012 in #794  
+create api get coutries, users by name, and api global pulse filter by @hohai1001 in #793  
+update api marketplace by @congtruong1012 in #800  
+update hub filter by @QuangThai in #801
+update api collection activities ( get thumbnail of NFT model) by @congtruong1012 in #802    
+update marketplace, hub by @congtruong1012 in #803  
+update api get comment by @hohai1001 in #805  
+update api get NFT by classId (update field thumbnail ) by @congtruong1012 in #808  
+update api get NFT by classId (update field thumbnail ) by @congtruong1012 in #809  
+update api GetCollectionItems by @congtruong1012 in #810  
+update api GetCollectionItems by @congtruong1012 in #811  
+App sdk by @tanphanvt in #804  
+add function generate string to insert Hub room by @hohai1001 in #813  
+Feature/create avatar cosmetic by @Evanlai8 in #812  
+update marketplace by @congtruong1012 in #814  
+update marketplace by @congtruong1012 in #815  
+update api getAssetFavaorite by @congtruong1012 in #816  
+update marketplace by @congtruong1012 in #817  
+update api getNewlistingItem by @congtruong1012 in #818  
+fix conflic by @congtruong1012 in #821  
+update api getNewlistingItem by @congtruong1012 in #819  
+update marketplace by @congtruong1012 in #822  
+update marketplace by @congtruong1012 in #823  
+update marketplace by @congtruong1012 in #825  
+update by @congtruong1012 in #826  
+Update replace slug null when get list Hub room by @hohai1001 in #829  
+update set slug by @hohai1001 in #831  
+update marketplace by @congtruong1012 in #827  
+Update redirect by @hohai1001 in #832  
+Update redirect (#832) by @QuangThai in #833  
+add get user nft owned collections endpoint by @mikejamesli in #834  
+add get user nft owned collections endpoint by @mikejamesli in #835  
+Improvement/api06.06 by @codevuk in #838  
+Create api send email verify and update api login with social by @hohai1001 in #839  
+update thumbnail NFT model in api asset favorite by @congtruong1012 in #840  
+update thumbnail NFT model in api asset favorite (#840) by @congtruong1012 in #841  
+App sdk by @tanphanvt in #844  
+Update api getSocialProfile by @hohai1001 in #845  
+Imrpovement/api07.06 by @codevuk in #846  
+Generating a unique token for the login with email by @hohai1001 in #847  
+Improvement/api09.06 by @codevuk in #850  
+Feature/create metavers social by @tritm-cs in #851  
+Release latest changes into dev by @justinphamnz in #852  
+Improvement/api12.06 by @codevuk in #854  
+get list countries by wallet with version web by @tritm-cs in #853  
+Update metaverse creation logic by @justinphamnz in #856  
+Improvement/bunker refactor by @codevuk in #858  
+Update bind existing wallet with email by @hohai1001 in #857  
+Metaverse hub kun by @QuangThai in #859  
+update api edit space by @QuangThai in #861  
+update edit, delete space by @QuangThai in #860  
+Improvement/api14.06 by @codevuk in #862  
+update api get list favorite by @congtruong1012 in #864  
+update api get list favorite , Add start app endpoint, Add metaverse event start by @congtruong1012 in #865  
+Improvement/api20.06 by @codevuk in #866  
+Merge into release by @codevuk in #867  
+update api favorite, add field assetId in api marketplace by @congtruong1012 in #868  
+update api favorite, add field assetId in api marketplace (#868) by @congtruong1012 in #869  
+add feature update setting for metaverse version by @tritm-cs in #870  
+Add additional properties to loading screen by @codevuk in #872  
+Update login with email by @hohai1001 in #873  
+update api favorite by @congtruong1012 in #871  
+update login with email, favorite by @congtruong1012 in #874  
+Fix metaverse not loading by @codevuk in #875  
+Do not delete files from s3 when updating meta beauty by @codevuk in #876  
+update field functionType hubTemplate by @QuangThai in #877  
+update field functionType hubTemplate (#877) by @QuangThai in #878  
+Feature/report meeting by @congtruong1012 in #879  
+Feature/report meeting by @congtruong1012 in #880  
+Update bind existing wallet with google account by @hohai1001 in #882  
+update report in hub by @congtruong1012 in #884  
+update report in hub, Update bind existing wallet with google account by @congtruong1012 in #885  
+update filter report by @congtruong1012 in #886  
+update filter report by @congtruong1012 in #887  
+Feature/report meeting by @congtruong1012 in #888  
+update HubTrackingParticipant model by @congtruong1012 in https://github.com/bit-country/API/pull...  
+
 ## Pioneer & AlphaTestnet v0.0.1.17 (5-Jul-2023)
 
 **Release Summary**
