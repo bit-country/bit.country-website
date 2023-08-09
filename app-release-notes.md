@@ -43,7 +43,6 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 * Public teleport
 * Improve space creation with option NFT holders and member only
 * NPC Greeting
-* New map templates
 * Improved Attendances
 * Reporting and csv download
 * Fixed the player is stuck while moving
