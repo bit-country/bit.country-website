@@ -10,6 +10,48 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## Pioneer & AlphaTestnet v0.0.1.19 (09-Aug-2023)
+**Summary**
+* Many improvements across 2.5D and 3D spaces, large changes to available functionality
+* Cloud recording, more analytics and virtual background enabled for 2.5D - coming soon for 3D
+* 3D viewer, improvements to Build Menu, better UX when creating new props, blocks, and skyboxes. Resolves issues related to search and more.
+
+**3D**
+* Updated Avatar System for V2 - upcoming feature
+* Emotes - show your support with Wave and Clap
+* Sitting - on supported Spaces (Camp ground), you can sit on enabled objects
+* Redesigned UI, bring 3D UI in line with 2.5D’s UI
+	 * Re-ordered meeting controls to match order from 2.5D
+* Improved Avatar animation, and rendering for V1 and V2 avatars
+* Improved UX related to asset/model building, preview and highlighter for placing assets is more stable
+* Improved and resolved some errors related to Bunker
+* UX improvements in build menu
+  * Fixed validation for uploading images
+  * Show more error messages
+  * Don’t close the build menu on close
+  * After creating a new block/prop/skybox/ground, you are taken to the last page
+  * Fixed error with searching in build menu
+  * Improved pagination behaviour with some edge cases
+* Resolve unnecessary error when not having a webcam on 3D space meeting join request
+
+**2.5D**
+* Cloud recording
+* Virtual Background
+* Questionaire
+* Chat v2 - coming soon
+* Allow owner to delete space
+* Public teleport
+* Improve space creation with option NFT holders and member only
+* NPC Greeting
+* New map templates
+* Improved Attendances
+* Reporting and csv download
+* Fixed the player is stuck while moving
+* More settings (timezone, location, questions, mini game…)
+* Improved the desk assignment
+* Fixed issues and improved Performance and UI/UX 
+
+
 ## Pioneer & AlphaTestnet v0.0.1.18.2 (21-Jul-2023)
 **Summary**
 * Improved spaces behaviour, better preview for shared spaces on social platforms.
