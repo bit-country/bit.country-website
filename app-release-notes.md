@@ -1,7 +1,7 @@
 # 🚀 How to join Bit.Country Pioneer? 
 
 ### App
-👉👉 [Visit Bit.Country Pioneer App](https://pioneer.bit.country) 👈👈
+👉 [Visit Bit.Country Pioneer App](https://pioneer.bit.country)
 
 👉 [User Manual](https://metaversenw.gitbook.io/user-manual/bit.country-space/what-is-a-space) 
 
