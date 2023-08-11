@@ -12,7 +12,7 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
-## Pioneer & AlphaTestnet v0.0.1.19 (09-Aug-2023)
+## Pioneer App v0.0.1.19 (09-Aug-2023)
 **Summary**
 * Many improvements across 2.5D and 3D spaces, large changes to available functionality
 * Cloud recording, more analytics and virtual background enabled for 2.5D - coming soon for 3D
