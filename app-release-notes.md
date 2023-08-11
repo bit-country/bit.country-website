@@ -16,6 +16,52 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 * Cloud recording, more analytics and virtual background enabled for 2.5D - coming soon for 3D
 * 3D viewer, improvements to Build Menu, better UX when creating new props, blocks, and skyboxes. Resolves issues related to search and more.
 
+**2.5D**
+* Enable Cloud recording on Premium Space
+	* Allows Host to record sessions or events directly to the cloud, ensuring that they don’t lose any important content and can access it anytime from anywhere without the need for local storage.
+   	* Auto Recording setting for Host.
+* Lock Meeting
+  	* Host is now able to Lock meeting to disallow anyone from joining the meeting
+  	* Admit to join feature that the host can manually admit participants to join meeting
+* Virtual & Blur Background (beta)
+  	* Enable Virtual Background on some specific Maps.
+  	* Ability to upload your own virtual background
+* Questionaire Module
+  	* Allow Host to set up list of questions, survey and schedule them to participants
+  	* Survey Reporting Tools for analysis
+  	* Download resul as CSV file
+* Workspace Module
+  	* Proximity Chat allows near-by users to communicate seamlessly.
+  	* Meeting room feature inside Workspace.
+  	* Enable new Workspace Map type.
+  	* Desk Assignment feature
+  	* Workspace template is coming soon.    
+* Chat v2 - coming soon
+  	* The complete Communication Toolkit to bring Chat system to the next level
+* Allow owner to delete space
+	* Space Owner is now able to delete their Space.
+* Public Place of Interest
+  	* Allow Host to create the common interest places in the map e.g Meeting Area, Chit-Chat area that visible to all visitors
+* NFT gated and Member-only Space
+  	* Host can gate their Space for NFT holders on different networks (Pioneer, Kusama, Polkadot). Only NFT holders are able to access their Space.
+  	* Only invited members are able to access the Space if it set to Member-only 
+* NPC Customization
+  	* Allows Host to customize their Space experience with different NPC greetings. 
+* Improved Attendance Report
+  	* Show attendees total time
+  	* View attendance detail
+  	* Download or view cloud recording
+* Reporting and csv download
+  	* Support CSV download for most of available data
+* Improve player movement
+  	* Improve path finding and player movement
+* More added settings for Host
+	* Timezone
+	* User country (optional for users to update)
+* Improved Performance and UI/UX
+  	* A lot of improvements on Meeting control bar
+  	* Allow Host to change View Mode for everyone
+
 **3D**
 * Updated Avatar System for V2 - upcoming feature
 * Emotes - show your support with Wave and Clap
@@ -33,22 +79,6 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
   * Fixed error with searching in build menu
   * Improved pagination behaviour with some edge cases
 * Resolve unnecessary error when not having a webcam on 3D space meeting join request
-
-**2.5D**
-* Cloud recording
-* Virtual Background
-* Questionaire
-* Chat v2 - coming soon
-* Allow owner to delete space
-* Public teleport
-* Improve space creation with option NFT holders and member only
-* NPC Greeting
-* Improved Attendances
-* Reporting and csv download
-* Fixed the player is stuck while moving
-* More settings (timezone, location, questions, mini game…)
-* Improved the desk assignment
-* Fixed issues and improved Performance and UI/UX 
 
 
 ## Pioneer & AlphaTestnet v0.0.1.18.2 (21-Jul-2023)
