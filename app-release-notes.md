@@ -11,6 +11,46 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 
 # ✅ Release Notes
+## Pioneer App v0.0.1.20 (23-Aug-2023)
+New
+* Customize Space (alpha feature)
+  * Premium Space owner now can customize their Space 
+* BC Chat 1.0 release
+  * Introduce new Chat Engine
+  * Support Channel or Direct Message communication.
+  * Support In-App notification
+* Improved Livestream’s Participant Engagement
+  * Livestream Host now can allow participants to speak
+* New Loading UI
+  * Include some interesting tips on Loading UI
+* New Host Control in Meeting
+  * Host can force different view mode during meeting
+  * Only Host can start a Meeting.
+* Hyperlink tool availability - rolled out, add links NFTs or Props
+
+Improvement & Fixed
+* New Broadcast Messaging UI
+* Improve connection stability and reconnect when having connection problems
+* Improve Join Meeting speed 
+* Fix Mini-game issues 
+* Fix and improve Question Setting and Survey Form issues
+* Improved Minigame Setting
+* Improved meeting lock feature
+* Separate emotes menu
+* Grouping 2 features Super Effect and Big Emotes into one menu
+* Keep the audio/video publishing status for the next meeting
+* Add country and timezone
+* Fix the issue that the message content is lost when there is someone has just joined the meeting
+* Improve the meeting request feature
+* Improve the cloud recording feature
+* Improve auto-join feature and popup
+* Fix issue related to sending invitation email
+* Improve UI and performance
+* Improve responsiveness on mobile
+* Improved UI responsiveness on 3D across a variety of screen sizes or ratios
+* Resolved bug for name when already logged in on 3D spaces
+* Improved mobile joystick behaviour on 3D
+* Resolved issues with image sizing on 3D
 
 ## Pioneer App v0.0.1.19 (09-Aug-2023)
 **Summary**
