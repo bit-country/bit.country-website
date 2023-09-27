@@ -11,6 +11,61 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 
 # ✅ Release Notes
+## Pioneer App v0.0.1.21 (27-Sep-2023)
+NEW:
+* Low Power Mode (Inactive browser tab, gallery and focus mode)
+  * Reduce game engine activity while user is not actively engaged in game engine
+  * User on mobile will have low power mode activated by default
+* Game Multiplayer Server and API architecture improvement        
+  * Create fail-proof architecture when API error doesn’t dispose Multiplayer Server
+* Host can End the Meeting for all participants        
+  * The ability for Host to end meeting for everyone.
+* Added notification features with toast when using super effect
+  * Improve notification when using super effect.
+* Enable BC Messaging on Metaverse Menu
+  * Metaverse users can access their Messaging from Metaverse Menu
+* New Video Only Mode
+  * No-character mode, only displays video/avatar profile.
+* Pop-up video meeting when sharing screen
+* New Reward System for Space engagement
+  * Point allocation system for Space engagement
+  * Allow host to set up points for each tasks inside Space
+  * Reward campaign integration.
+* Multichain selection support - preparing for multichain future
+  * Infrastructure changes to support multichain deployment
+* New home page
+* Redesigned login and blockchain infrastructure
+* Updated site hosting, improved loading performance around the globe
+* Loading performance enhancements - reduced core resource sizes for quicker load on weaker network connections
+* Updated 3D viewer, improved UI and UX for meetings
+  * New share link
+  * Resolve inversion of icons for status
+  * Redesigned meeting infrastructure
+* Space customizer
+  * Undo item
+  * Edit item
+  * Move item
+  * Upload animation item
+  * Add NFT items
+  * Add animation items
+
+CHANGED:
+* Improve member only condition only with map office
+* Improve style chat mattermost & Fix issue setting focus focus Display tab
+* Font size limit of Add Text. Limit the size of Portal, * Hyper Link and Private Area
+
+FIXED:
+* The problem of not being able to hear other people talking in proximity chat mode
+* Fix issue of showing Audience video when host share screen
+* Fix issue Map Setting screen sharing disabled is not hidden, add emoji enable/disabled
+* Fix issue delete Space needs to click twice to work after deleting one space
+* Fix issue some of the objects placed are not seen all the time when loading Space
+* Fix issue the Private area is still getting triggered from the main window when clicking on the sub window modal and the password text box pops up
+* Prevent click login with wallet When the application is not installed in login page
+* Fix issues on login with email
+* Fix error in device settings
+
+
 ## Pioneer App v0.0.1.20 (23-Aug-2023)
 New
 * Customize Space (alpha feature)
