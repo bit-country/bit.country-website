@@ -22,8 +22,6 @@ NEW:
   * The ability for Host to end meeting for everyone.
 * Added notification features with toast when using super effect
   * Improve notification when using super effect.
-* Enable BC Messaging on Metaverse Menu
-  * Metaverse users can access their Messaging from Metaverse Menu
 * New Video Only Mode
   * No-character mode, only displays video/avatar profile.
 * Pop-up video meeting when sharing screen
