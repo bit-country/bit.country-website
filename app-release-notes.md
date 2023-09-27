@@ -12,7 +12,7 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 ## Pioneer App v0.0.2 (27-Sep-2023)
-NEW:
+New features:
 * Low Power Mode (Inactive browser tab, gallery and focus mode)
   * Reduce game engine activity while user is not actively engaged in game engine
   * User on mobile will have low power mode activated by default
@@ -47,12 +47,10 @@ NEW:
   * Add NFT items
   * Add animation items
 
-CHANGED:
+Improvements:
 * Improve member only condition only with map office
 * Improve style chat mattermost & Fix issue setting focus focus Display tab
 * Font size limit of Add Text. Limit the size of Portal, * Hyper Link and Private Area
-
-FIXED:
 * The problem of not being able to hear other people talking in proximity chat mode
 * Fix issue of showing Audience video when host share screen
 * Fix issue Map Setting screen sharing disabled is not hidden, add emoji enable/disabled
