@@ -11,7 +11,7 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 
 # ✅ Release Notes
-## Pioneer App v0.0.1.21 (27-Sep-2023)
+## Pioneer App v0.0.2 (27-Sep-2023)
 NEW:
 * Low Power Mode (Inactive browser tab, gallery and focus mode)
   * Reduce game engine activity while user is not actively engaged in game engine
