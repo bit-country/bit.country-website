@@ -11,6 +11,20 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 
 # ✅ Release Notes
+## Pioneer App v0.0.2.1 (6-Oct-2023)
+Changes:
+* Improved proximity behaviour when the app is in the background, improved connection speed and consistency
+* Video positioning in head top and video only modes, more accurately above the respective user
+* Improved proximity peer selection to align with circular guide
+* Improved edge case loading issues
+* Improved login with wallet
+* Improved avatar positioning
+* Improved lock meeting
+* Resolved issues with inputs in some cases
+* Fixed some navigation errors
+* General UX improvements
+
+
 ## Pioneer App v0.0.2 (27-Sep-2023)
 New features:
 * Low Power Mode (Inactive browser tab, gallery and focus mode)
