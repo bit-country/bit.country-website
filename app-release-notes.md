@@ -11,6 +11,27 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 
 # ✅ Release Notes
+## Pioneer App V0.0.2.2 (23-Oct-2023)
+NEW FEATURES:
+* Add favorite feature for space
+  * Favorite/un-favorite space
+  * List spaces your favorite (login) / Top spaces favorite (non-login)
+* Add new Event: Halloween Haunt
+* Add missing in top-bar
+  
+IMPROVED:
+* 2.5D Character behavior, eliminated edge cases where name and other UI elements disconnected from player
+* 2.5D Proximity chat improvements, show the UI in all cases
+* 2.5D Performance improvement - minimized work done calculating positioning, movement and events
+* 2.5D System for connecting to meetings and players in workspaces
+* App New routing system, routes are shorter in preparation for a future release
+* App Link preview system when sharing
+  
+FIXED:
+* Errors in some routes on the app
+* Inconsistencies with styling
+
+
 ## Pioneer App v0.0.2.1 (6-Oct-2023)
 Changes:
 * Improved proximity behaviour when the app is in the background, improved connection speed and consistency
