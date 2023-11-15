@@ -11,6 +11,20 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 
 # ✅ Release Notes
+## Pioneer App v0.0.2.3 (27-Oct-2023)
+IMPROVED:
+* Updated Halloween Haunt page for better clarity and UX
+* Space customizer item movement has been improved
+* Video and microphone on/off status when in office spaces - remembers whether it was on or off better
+* Preview video when screensharing correctly appears and disappears when camera is toggled
+* Minor performance improvement for 2.5D spaces
+* Video positioning is more accurate when resizing or zooming
+
+FIXED:
+* Resolved video positioning errors related to some spaces and devices
+* Interruptions to text input when a meeting ends or view mode is changed
+* Issues related to multi-nft cart checkout
+
 ## Pioneer App V0.0.2.2 (23-Oct-2023)
 NEW FEATURES:
 * Add favorite feature for space
