@@ -11,6 +11,22 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 
 # ✅ Release Notes
+## Pioneer App v0.0.2.4 (15-Nov-2023)
+IMPROVED:
+* Updated halloween campaign page and system for clarity.
+* Customizer improvements - updated UI and UX.
+* Large redesign to video system - for head top and video only. Works better across devices.
+* Massive CPU performance improvement with multiple people in a meeting or workspace. On some devices up to a 4x improvement.
+* Picture-in-Picture preview when sharing screen improved to close in more cases.
+* Campaign UI and UX - improved start date and end date behavior.
+* Updated design for Pulse pages.
+  
+FIXED:
+* Links navigating incorrectly on some pages.
+* Edge cases with incorrect room counts and/or user names.
+* Edge cases related to livestreams and other social meeting types.
+* User permission management within spaces - sometimes failing to return users when searching.
+
 ## Pioneer App v0.0.2.3 (27-Oct-2023)
 IMPROVED:
 * Updated Halloween Haunt page for better clarity and UX
