@@ -11,6 +11,22 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 
 # ✅ Release Notes
+
+## Pioneer App v0.0.2.5 (30-Nov-2023)
+NEW:
+* Release Odyssey Campaign - an exclusive campaign for Odyssey event participants.
+* Embed BitAvatar into Pioneer App - experience the new and improved avatar system, new customization possibilities. Supported avatars also represented in 2.5D.
+* Introduce a Primary space feature for Metaverses. 
+* Revamp Metaverse settings page.
+IMPROVED:
+* Further UI improvements in 2.5D.
+* New Pulse UI, post editor and more.
+* Improved Metaverse home page.
+FIXED:
+* Errors for reporting tools in 3D metaverse.
+* Edge case when loading a 3D space, resulting in a failed load.
+
+
 ## Pioneer App v0.0.2.4 (15-Nov-2023)
 IMPROVED:
 * Updated halloween campaign page and system for clarity.
