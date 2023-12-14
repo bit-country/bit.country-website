@@ -12,6 +12,23 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## Pioneer App v0.0.2.6 (13-Dec-2023)
+IMPROVED:
+* Restored Land Summary on new Metaverse Home.
+* Banner upload in new metaverse settings page.
+* Updated wording on Metaverse Odyssey event for clarity.
+* Display of some stats for land for metaverses.
+* Responsiveness and experience on touch devices.
+FIXED:
+* Login with Wallet in 2.5D.
+
+## Pioneer App v0.0.2.5a (06-Dec-2023)
+IMPROVED:
+* Better UI responsiveness.
+* Display of some pages on smaller devices.
+* Enabled 3D primary space support.
+* Image preview when sharing links on social.
+
 ## Pioneer App v0.0.2.5 (30-Nov-2023)
 NEW:
 * Release Odyssey Campaign - an exclusive campaign for Odyssey event participants.
