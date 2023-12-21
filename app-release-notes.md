@@ -15,7 +15,7 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 ## Pioneer App v0.0.2.6 (13-Dec-2023)
 NEW:
 * Apply backgrounds to your avatar when customizing them! Stand out with a selection of new backgrounds.
-* Banner upload in new metaverse settings page.
+* Banner upload in new metaverse settings page.  
 IMPROVED:
 * Restored Land Summary on new Metaverse Home.
 * Updated wording on Metaverse Odyssey event for clarity.
