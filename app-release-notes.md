@@ -12,6 +12,19 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## Pioneer App v0.0.2.7 (15-Dec-2023)
+NEW:
+* Dimension visiblity and access control in metaverse settings.
+* Updated editors for posts and comments.
+* Updated internals for BitAvatar supporting more customisation.
+
+IMPROVED:
+* Update Twitter login support to latest API
+* Update image preview to meet new X standard for previews
+* Improved exit behaviour from 2.5D
+* Link sharing for 2.5D spaces
+* Accessing other spaces from 2.5D, including better support across password protected spaces.
+
 ## Pioneer App v0.0.2.6 (13-Dec-2023)
 NEW:
 * Apply backgrounds to your avatar when customizing them! Stand out with a selection of new backgrounds.
