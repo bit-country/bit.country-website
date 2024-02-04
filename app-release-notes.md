@@ -12,7 +12,7 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
-## Pioneer App v0.0.2.7 (15-Dec-2023)
+## Pioneer App v0.0.2.7 (15-Jan-2024)
 NEW:
 * Dimension visiblity and access control in metaverse settings.
 * Updated editors for posts and comments.
