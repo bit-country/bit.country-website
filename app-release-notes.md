@@ -12,6 +12,14 @@ Joining our [Discord](https://discord.com/invite/PaMAXZZ59N) and official [Teleg
 
 # ✅ Release Notes
 
+## Pioneer App v0.0.2.8 (18-Jan-2024)
+NEW:
+* Talisman wallet support
+* New BitAvatar campaigns - InnoVoy event
+
+IMPROVED:
+* Auto join settings for 2.5D
+
 ## Pioneer App v0.0.2.7 (15-Jan-2024)
 NEW:
 * Dimension visiblity and access control in metaverse settings.
